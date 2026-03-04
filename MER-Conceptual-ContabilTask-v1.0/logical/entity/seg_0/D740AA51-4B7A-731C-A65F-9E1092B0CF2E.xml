@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D740AA51-4B7A-731C-A65F-9E1092B0CF2E" name="Documento">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:55:37 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>document</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Identificador do Documento" id="A5295BBE-1679-FA27-4C7A-A67F3FD39436">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:57:08 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>documentId</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>documentId</preferredAbbreviation>
+<source>documentId</source>
+</Attribute>
+<Attribute name="Nome do Documento" id="3E9A4C4C-B070-C4A2-2B13-34524813DF1B">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:58:17 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>documentName</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>documentName</preferredAbbreviation>
+<source>documentName</source>
+</Attribute>
+<Attribute name="Data e Hora da Criacao do Documento" id="73BDE91D-D7C8-EC8F-C2F8-9DBC2F383F2A">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:59:00 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>docDateTime</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>docDateTime</preferredAbbreviation>
+<source>docDateTime</source>
+</Attribute>
+<Attribute name="Caminho do Arquivo em Disco" id="0C5B8BA3-FE87-BFC6-DC57-656CD6177E4A">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-24 00:00:35 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>documentPath</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>documentPath</preferredAbbreviation>
+<source>documentPath</source>
+</Attribute>
+<Attribute name="Identificador do Tipo de Documento" id="0DBBDE2A-2CBC-9F00-4475-C19DE89698E5">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-24 00:05:30 UTC</createdTime>
+<generatorID>C142EDC7-19D2-10A8-4D10-329E64AE4E45</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<referedAttribute>F77C4211-AE1E-D6BF-36A5-788423ABF401</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Identificador do Andamento" id="73712693-7414-E976-650B-2BF1896AD899">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-02 13:01:09 UTC</createdTime>
+<generatorID>D79317E6-9442-8E52-C339-1044D34D6564</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<referedAttribute>914DDAE8-46A7-35B3-B92E-0D4E84A79205</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="97093F69-4B35-E777-1D5A-5BBFBFAD7F0F" name="Documento PK">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:57:26 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A5295BBE-1679-FA27-4C7A-A67F3FD39436</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

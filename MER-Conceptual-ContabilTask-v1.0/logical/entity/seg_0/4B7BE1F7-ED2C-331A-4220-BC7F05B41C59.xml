@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B7BE1F7-ED2C-331A-4220-BC7F05B41C59" name="Andamento da Solicitcao">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-02 11:29:04 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>requestFollowup</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Identificador do Andamento" id="914DDAE8-46A7-35B3-B92E-0D4E84A79205">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-02 11:29:33 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>requestfuId</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>requestfuId</preferredAbbreviation>
+<source>requestfuId</source>
+</Attribute>
+<Attribute name="Texto do Andamento" id="54B79A61-A8D7-473F-A069-8D12428F59EF">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-02 11:40:09 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>requestfuTxt</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>requestfuTxt</preferredAbbreviation>
+<source>requestfuTxt</source>
+</Attribute>
+<Attribute name="Data e Hora do Andamento" id="D852DFCB-DC3F-FBEE-2412-BC10E908118A">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-02 11:43:00 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>requestfuTimestamp</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>requestfuTimestamp</preferredAbbreviation>
+<source>requestfuTimestamp</source>
+</Attribute>
+<Attribute name="Identificador da Solicitacao" id="D96906FB-A317-9A6B-7EB8-18F2B1191A44">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-02 13:00:54 UTC</createdTime>
+<generatorID>D9597EDD-7E66-F739-8058-53B63993F1AF</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<referedAttribute>29E4C4FB-B7CA-9EF9-6DE4-444996B58A07</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F5ACABC-C81A-5DF6-A641-8B322987BC85" name="Entrega PK">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-02 11:30:02 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>914DDAE8-46A7-35B3-B92E-0D4E84A79205</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

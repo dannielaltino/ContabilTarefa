@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_request_tb_followup" directorySegmentName="seg_0" id="D9597EDD-7E66-F739-8058-53B63993F1AF">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-02 13:00:54 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<sourcePk>A6E389EC-207A-44FA-7C23-1259FEB6AA69</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tem</nameOnSource>
+<nameOnTarget>de uma</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A33D4D7C-D7C7-B576-D08C-1CF4C951F6BF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4B7BE1F7-ED2C-331A-4220-BC7F05B41C59</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

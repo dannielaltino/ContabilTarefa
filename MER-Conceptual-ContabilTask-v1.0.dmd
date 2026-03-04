@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER-Conceptual-ContabilTask-v1.0" id="ED37A109-3916-E48D-D9D3-BAA59BFC08EC" version="3.5">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:18:14 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>ED37A109-3916-E48D-D9D3-BAA59BFC08EC</designId>
+</OSDM_Design>

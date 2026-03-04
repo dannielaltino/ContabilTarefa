@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_atendimento" directorySegmentName="seg_0" id="B19239AD-EB94-82D4-8BFB-2FAD309694B1">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-24 00:16:07 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<sourcePk>0DEC5B73-6C79-CF68-FEC3-371E9B0740BA</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>atende</nameOnSource>
+<nameOnTarget>atendida por um</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>237D9687-2E38-3D8D-3D51-6D1FB89F6968</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A33D4D7C-D7C7-B576-D08C-1CF4C951F6BF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

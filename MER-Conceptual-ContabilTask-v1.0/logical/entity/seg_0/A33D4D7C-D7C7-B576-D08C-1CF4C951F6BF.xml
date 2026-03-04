@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A33D4D7C-D7C7-B576-D08C-1CF4C951F6BF" name="Solicitacao">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-24 00:09:52 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>request</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Identificador da Solicitacao" id="29E4C4FB-B7CA-9EF9-6DE4-444996B58A07">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-24 00:10:19 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>requestId</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>requestId</preferredAbbreviation>
+<source>requestId</source>
+</Attribute>
+<Attribute name="Tipo da Solicitacao" id="889AAE9C-2E83-CF84-D1FA-1A8FB15EBA12">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-24 14:54:52 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>requestType</synonym>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>requestType</preferredAbbreviation>
+<source>requestType</source>
+</Attribute>
+<Attribute name="Data e Hora da Solicitacao" id="A098C11E-26E4-5001-9EEC-7DA7A0667D7F">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-24 00:12:00 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>requestDateTime</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>requestDateTime</preferredAbbreviation>
+<source>requestDateTime</source>
+</Attribute>
+<Attribute name="Identificador do Solicitante" id="57CFDE67-B5F8-81D6-F84E-66944DD5F3AD">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-24 00:16:07 UTC</createdTime>
+<generatorID>B19239AD-EB94-82D4-8BFB-2FAD309694B1</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<referedAttribute>E3DC3F38-A479-642F-E8E7-69B17194C1C8</referedAttribute>
+<synonym>userIdCreation</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>userIdCreation</preferredAbbreviation>
+<source>userIdCreation</source>
+</Attribute>
+<Attribute name="Identificador do Atendente" id="3EABD2B2-657F-4924-549D-DC24F31312CC">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-24 14:59:03 UTC</createdTime>
+<generatorID>DD3C1734-B4EF-5123-5B9D-145602D06D0D</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<referedAttribute>E3DC3F38-A479-642F-E8E7-69B17194C1C8</referedAttribute>
+<synonym>userContabil</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>userContabil</preferredAbbreviation>
+<source>userContabil</source>
+</Attribute>
+<Attribute name="Identificador do Status" id="C6AD0A81-A5C0-9B18-AD64-6BC0EDBE0A84">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-25 17:47:42 UTC</createdTime>
+<generatorID>6E222AF8-EB25-F8AB-667C-F1964AF6DA8A</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<referedAttribute>B26725B2-2419-DA9D-AC73-4AF26DA13D3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Identificador do Tipo da Solicitacao" id="4A916E89-8A50-11EE-40C0-61FC43A48873">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-25 20:49:11 UTC</createdTime>
+<generatorID>0189828B-3867-C75B-A427-AC1201DC7974</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<referedAttribute>B4AADC5D-B074-2DB5-668D-D6DCAE04A58D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A6E389EC-207A-44FA-7C23-1259FEB6AA69" name="Entrega PK">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-24 00:10:36 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>29E4C4FB-B7CA-9EF9-6DE4-444996B58A07</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
