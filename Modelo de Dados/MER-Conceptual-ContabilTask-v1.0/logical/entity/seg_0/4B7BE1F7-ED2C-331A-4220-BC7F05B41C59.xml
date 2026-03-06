@@ -61,7 +61,7 @@
 <preferredAbbreviation>requestfuTimestamp</preferredAbbreviation>
 <source>requestfuTimestamp</source>
 </Attribute>
-<Attribute name="Identificador da Solicitacao" id="D96906FB-A317-9A6B-7EB8-18F2B1191A44">
+<Attribute name="Identificador do Servico" id="D96906FB-A317-9A6B-7EB8-18F2B1191A44">
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-03-02 13:00:54 UTC</createdTime>
 <generatorID>D9597EDD-7E66-F739-8058-53B63993F1AF</generatorID>

@@ -14,24 +14,24 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>requestType</shortName>
+<shortName>serviceType</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Identificador do Tipo da Solicitacao" id="B4AADC5D-B074-2DB5-668D-D6DCAE04A58D">
+<Attribute name="Identificador do Tipo do Servico" id="B4AADC5D-B074-2DB5-668D-D6DCAE04A58D">
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-25 20:46:27 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<synonym>requestTypeId</synonym>
+<synonym>serviceTypeId</synonym>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>requestTypeId</preferredAbbreviation>
-<source>requestTypeId</source>
+<preferredAbbreviation>serviceTypeId</preferredAbbreviation>
+<source>serviceTypeId</source>
 </Attribute>
-<Attribute name="Descricao do Tipo da Solicitacao" id="19086C02-745A-E890-8406-4368B3151FB3">
+<Attribute name="Descricao do Tipo de Servico" id="19086C02-745A-E890-8406-4368B3151FB3">
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-25 20:47:37 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
@@ -39,13 +39,13 @@
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<synonym>requestTypeDesc</synonym>
+<synonym>serviceTypeDesc</synonym>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>requestTypeDesc</preferredAbbreviation>
-<source>requestTypeDesc</source>
+<preferredAbbreviation>serviceTypeDesc</preferredAbbreviation>
+<source>serviceTypeDesc</source>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -9,7 +9,7 @@
 <sourcePk>0DEC5B73-6C79-CF68-FEC3-371E9B0740BA</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>solicita</nameOnSource>
-<nameOnTarget>solicitada por um</nameOnTarget>
+<nameOnTarget>solicitado por um</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
