@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F219A120-0FF6-1667-C94C-C9A769EB1EBC" name="Tipo da Solicitacao">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CADE70E6-612C-D8EA-1BA7-DA20E9F8B8D9" name="Serviço">
 <createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-25 20:45:00 UTC</createdTime>
+<createdTime>2026-03-06 20:14:29 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
@@ -14,51 +14,44 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>serviceType</shortName>
+<shortName>Service</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Identificador do Tipo do Servico" id="B4AADC5D-B074-2DB5-668D-D6DCAE04A58D">
+<Attribute name="Identificador do Serviço" id="32AC0AC5-BE29-BF97-2359-02D64F4FFEC9">
 <createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-25 20:46:27 UTC</createdTime>
+<createdTime>2026-03-06 20:14:50 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<synonym>serviceTypeId</synonym>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>serviceTypeId</preferredAbbreviation>
-<source>serviceTypeId</source>
 </Attribute>
-<Attribute name="Descricao do Tipo de Servico" id="19086C02-745A-E890-8406-4368B3151FB3">
+<Attribute name="Descrição do Serviço" id="8BCEEA80-C69A-C5ED-6003-802B919BFF3A">
 <createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-25 20:47:37 UTC</createdTime>
+<createdTime>2026-03-06 20:15:20 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<synonym>serviceTypeDesc</synonym>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>serviceTypeDesc</preferredAbbreviation>
-<source>serviceTypeDesc</source>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5C327C39-D954-8470-571C-16CB9660FAC8" name="Tipo da Solicitacao PK">
+<identifier id="5488A505-C2BA-08BB-3F22-7F2165FC8086" name="Serviço PK">
 <createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-25 20:46:51 UTC</createdTime>
+<createdTime>2026-03-06 20:15:59 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>B4AADC5D-B074-2DB5-668D-D6DCAE04A58D</attributeRef>
+<attributeRef>32AC0AC5-BE29-BF97-2359-02D64F4FFEC9</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

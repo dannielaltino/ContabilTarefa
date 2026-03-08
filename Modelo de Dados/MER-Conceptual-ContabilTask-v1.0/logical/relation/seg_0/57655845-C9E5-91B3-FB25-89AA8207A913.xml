@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_requestType_tb_request" directorySegmentName="seg_0" id="0189828B-3867-C75B-A427-AC1201DC7974">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_service_tb_clientServices" directorySegmentName="seg_0" id="57655845-C9E5-91B3-FB25-89AA8207A913">
 <createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-25 20:49:11 UTC</createdTime>
+<createdTime>2026-03-06 20:19:57 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<sourcePk>5C327C39-D954-8470-571C-16CB9660FAC8</sourcePk>
+<sourcePk>5488A505-C2BA-08BB-3F22-7F2165FC8086</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>de</nameOnSource>
-<nameOnTarget>de um</nameOnTarget>
+<nameOnSource>para</nameOnSource>
+<nameOnTarget>tem um</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>F219A120-0FF6-1667-C94C-C9A769EB1EBC</sourceEntity>
+<sourceEntity>CADE70E6-612C-D8EA-1BA7-DA20E9F8B8D9</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>A33D4D7C-D7C7-B576-D08C-1CF4C951F6BF</targetEntity>
+<targetEntity>98B3846E-B4A3-A628-49E4-77AE51E73CD7</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

@@ -47,6 +47,21 @@
 <preferredAbbreviation>tenantDesc</preferredAbbreviation>
 <source>tenantDesc</source>
 </Attribute>
+<Attribute name="CNPJ do Tenant" id="F254660D-43DC-6FC2-CA83-5326875B9E76">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-08 20:00:28 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>tenantCNPJ</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>tenantCNPJ</preferredAbbreviation>
+<source>tenantCNPJ</source>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="307E3AA8-76AD-4358-D039-345DCABDCA5F" name="Tenant PK">

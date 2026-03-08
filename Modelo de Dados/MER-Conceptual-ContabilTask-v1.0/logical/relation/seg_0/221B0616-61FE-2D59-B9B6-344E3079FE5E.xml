@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_profile_tb_user" directorySegmentName="seg_0" id="8BF30B38-842F-D838-8C7D-82B85686E654">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_ClientUser_tb_ClientServices" directorySegmentName="seg_0" id="221B0616-61FE-2D59-B9B6-344E3079FE5E">
 <createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-23 23:49:22 UTC</createdTime>
+<createdTime>2026-03-06 20:22:41 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<sourcePk>E818DD2F-F30F-7B9A-193D-A286CEF3A2C6</sourcePk>
+<sourcePk>052D5279-6763-8BE2-AD85-B15E6CC7089E</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>de</nameOnSource>
-<nameOnTarget>de um</nameOnTarget>
+<nameOnSource>tem</nameOnSource>
+<nameOnTarget>para um</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>216B3DBD-D9B6-5F5F-E259-B222EBDDCFA5</sourceEntity>
+<sourceEntity>8961A466-1E62-1B20-90AA-0EC3DBA3C757</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>237D9687-2E38-3D8D-3D51-6D1FB89F6968</targetEntity>
+<targetEntity>98B3846E-B4A3-A628-49E4-77AE51E73CD7</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

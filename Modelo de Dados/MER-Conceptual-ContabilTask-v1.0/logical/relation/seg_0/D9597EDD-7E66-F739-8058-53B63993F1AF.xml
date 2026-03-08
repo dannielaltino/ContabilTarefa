@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_request_tb_followup" directorySegmentName="seg_0" id="D9597EDD-7E66-F739-8058-53B63993F1AF">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_ServiceExecution_tb_FollowUpServiceExecution" directorySegmentName="seg_0" id="D9597EDD-7E66-F739-8058-53B63993F1AF">
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-03-02 13:00:54 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>

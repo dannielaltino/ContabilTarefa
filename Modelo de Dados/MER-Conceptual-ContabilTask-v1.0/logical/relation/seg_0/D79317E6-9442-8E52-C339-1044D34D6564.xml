@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_followup_tb_document" directorySegmentName="seg_0" id="D79317E6-9442-8E52-C339-1044D34D6564">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_FollowUpServiceExecution_tb_document" directorySegmentName="seg_0" id="D79317E6-9442-8E52-C339-1044D34D6564">
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-03-02 13:01:09 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
@@ -8,7 +8,7 @@
 </engineerTo>
 <sourcePk>2F5ACABC-C81A-5DF6-A641-8B322987BC85</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>tem</nameOnSource>
+<nameOnSource>pode ter</nameOnSource>
 <nameOnTarget>de um</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

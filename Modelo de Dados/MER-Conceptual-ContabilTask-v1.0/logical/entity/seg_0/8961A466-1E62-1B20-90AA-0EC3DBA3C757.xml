@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D740AA51-4B7A-731C-A65F-9E1092B0CF2E" name="Documento">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8961A466-1E62-1B20-90AA-0EC3DBA3C757" name="Usuário Cliente">
 <createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-23 23:55:37 UTC</createdTime>
+<createdTime>2026-03-06 20:00:21 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
@@ -14,91 +14,77 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>document</shortName>
+<shortName>ClientUser</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Identificador do Documento" id="A5295BBE-1679-FA27-4C7A-A67F3FD39436">
+<Attribute name="Identificador do Usuário Cliente" id="39A9C997-2E6F-3E1F-2B4D-740A1C9C4F18">
 <createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-23 23:57:08 UTC</createdTime>
+<createdTime>2026-03-06 20:01:22 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<synonym>documentId</synonym>
+<synonym>userClientId</synonym>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>documentId</preferredAbbreviation>
-<source>documentId</source>
+<preferredAbbreviation>userClientId</preferredAbbreviation>
+<source>userClientId</source>
 </Attribute>
-<Attribute name="Nome do Documento" id="3E9A4C4C-B070-C4A2-2B13-34524813DF1B">
+<Attribute name="CNPJ do Usuário Cliente" id="4BFA4433-5A66-2A82-CD08-7CF0A9441BF1">
 <createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-23 23:58:17 UTC</createdTime>
+<createdTime>2026-03-08 20:03:08 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<synonym>documentName</synonym>
+<synonym>userClientCNPJ</synonym>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>documentName</preferredAbbreviation>
-<source>documentName</source>
+<preferredAbbreviation>userClientCNPJ</preferredAbbreviation>
+<source>userClientCNPJ</source>
 </Attribute>
-<Attribute name="Data e Hora da Criacao do Documento" id="73BDE91D-D7C8-EC8F-C2F8-9DBC2F383F2A">
+<Attribute name="Nome do Usuário Cliente" id="1624CABA-C122-DB9D-3D6D-CFA0E41FB414">
 <createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-23 23:59:00 UTC</createdTime>
+<createdTime>2026-03-06 20:07:49 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<synonym>docDateTime</synonym>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>docDateTime</preferredAbbreviation>
-<source>docDateTime</source>
-</Attribute>
-<Attribute name="Caminho do Arquivo em Disco" id="0C5B8BA3-FE87-BFC6-DC57-656CD6177E4A">
-<createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-24 00:00:35 UTC</createdTime>
-<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
-<engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
-</engineerTo>
-<synonym>documentPath</synonym>
+<synonym>userClientName</synonym>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>documentPath</preferredAbbreviation>
-<source>documentPath</source>
+<preferredAbbreviation>userClientName</preferredAbbreviation>
+<source>userClientName</source>
 </Attribute>
-<Attribute name="Identificador do Tipo de Documento" id="0DBBDE2A-2CBC-9F00-4475-C19DE89698E5">
+<Attribute name="Email do Usuário Cliente" id="9BC68BD3-0803-A548-6B1D-250069E3049F">
 <createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-24 00:05:30 UTC</createdTime>
-<generatorID>C142EDC7-19D2-10A8-4D10-329E64AE4E45</generatorID>
+<createdTime>2026-03-06 20:08:48 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<referedAttribute>F77C4211-AE1E-D6BF-36A5-788423ABF401</referedAttribute>
+<synonym>userClientEmail</synonym>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>userClientEmail</preferredAbbreviation>
+<source>userClientEmail</source>
 </Attribute>
-<Attribute name="Identificador do Andamento da Execucao do Servico" id="73712693-7414-E976-650B-2BF1896AD899">
+<Attribute name="Identificador do Tenant" id="9358CE69-1BCC-C44A-C6C9-2FC510A290B8">
 <createdBy>gtrad2038</createdBy>
-<createdTime>2026-03-02 13:01:09 UTC</createdTime>
-<generatorID>D79317E6-9442-8E52-C339-1044D34D6564</generatorID>
+<createdTime>2026-03-06 20:10:24 UTC</createdTime>
+<generatorID>5CE3AD7D-7825-01CC-0183-5793A8B42427</generatorID>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<referedAttribute>914DDAE8-46A7-35B3-B92E-0D4E84A79205</referedAttribute>
+<referedAttribute>387FAB43-4301-C8B8-F2EA-78A247A7F128</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -106,16 +92,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="97093F69-4B35-E777-1D5A-5BBFBFAD7F0F" name="Documento PK">
+<identifier id="052D5279-6763-8BE2-AD85-B15E6CC7089E" name="Usuário Cliente PK">
 <createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-23 23:57:26 UTC</createdTime>
+<createdTime>2026-03-06 20:04:41 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A5295BBE-1679-FA27-4C7A-A67F3FD39436</attributeRef>
+<attributeRef>39A9C997-2E6F-3E1F-2B4D-740A1C9C4F18</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

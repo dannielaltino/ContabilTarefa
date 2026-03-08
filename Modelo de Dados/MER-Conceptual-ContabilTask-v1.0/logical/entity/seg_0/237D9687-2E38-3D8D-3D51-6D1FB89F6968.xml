@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="237D9687-2E38-3D8D-3D51-6D1FB89F6968" name="Usuario">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="237D9687-2E38-3D8D-3D51-6D1FB89F6968" name="Usuário da Contabilidade">
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-23 23:33:27 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
@@ -14,81 +14,52 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>user</shortName>
+<shortName>AccountingUser</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Identificador do Usuario" id="E3DC3F38-A479-642F-E8E7-69B17194C1C8">
+<Attribute name="Identificador do Usuario da Contabilidade" id="E3DC3F38-A479-642F-E8E7-69B17194C1C8">
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-23 23:34:08 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<synonym>userId</synonym>
+<synonym>accountingUserId</synonym>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>userId</preferredAbbreviation>
-<source>userId</source>
+<preferredAbbreviation>accountingUserId</preferredAbbreviation>
+<source>accountingUserId</source>
 </Attribute>
-<Attribute name="CNPJ do Usuario" id="BE117B55-0F42-4CA1-5839-B9B854766A53">
-<createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-27 00:30:48 UTC</createdTime>
-<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
-<engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
-</engineerTo>
-<synonym>userCnpj</synonym>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>userCnpj</preferredAbbreviation>
-<source>userCnpj</source>
-</Attribute>
-<Attribute name="Nome do Usuario" id="5F99DFB3-07AF-7553-C496-24C7D53C5615">
+<Attribute name="Nome do Usuario da Contabilidade" id="5F99DFB3-07AF-7553-C496-24C7D53C5615">
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-23 23:35:09 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<synonym>userDesc</synonym>
+<synonym>accountingUserDesc</synonym>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>userDesc</preferredAbbreviation>
-<source>userDesc</source>
+<preferredAbbreviation>accountingUserDesc</preferredAbbreviation>
+<source>accountingUserDesc</source>
 </Attribute>
-<Attribute name="Email do Usuario" id="BF66ED0C-767C-CBA1-F636-9FF9452FCC10">
+<Attribute name="Email do Usuario da Contabilidade" id="BF66ED0C-767C-CBA1-F636-9FF9452FCC10">
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-23 23:36:28 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<synonym>userEmail</synonym>
+<synonym>accountingUserEmail</synonym>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<preferredAbbreviation>userEmail</preferredAbbreviation>
-<source>userEmail</source>
-</Attribute>
-<Attribute name="Identifiador do Perfil do Usuario" id="F74C950A-2D62-488E-1EB9-C175A5446A15">
-<createdBy>gtrad2038</createdBy>
-<createdTime>2026-02-23 23:49:22 UTC</createdTime>
-<generatorID>8BF30B38-842F-D838-8C7D-82B85686E654</generatorID>
-<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
-<engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
-</engineerTo>
-<referedAttribute>271537D2-91EF-1FB1-BBED-70F3D40B3889</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>accountingUserEmail</preferredAbbreviation>
+<source>accountingUserEmail</source>
 </Attribute>
 <Attribute name="Identificador do Tenant" id="CD4684F9-4109-4BBD-9457-0DCF62FDF981">
 <createdBy>gtrad2038</createdBy>
