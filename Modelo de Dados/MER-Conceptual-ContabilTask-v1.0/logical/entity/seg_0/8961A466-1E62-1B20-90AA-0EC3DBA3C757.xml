@@ -90,6 +90,22 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Inadimplente" id="F1EE69B6-56C2-6A6E-5422-072909D4B245">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-20 16:43:27 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>userClientInadimplente</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<preferredAbbreviation>userClientInadimplente</preferredAbbreviation>
+<source>userClientInadimplente</source>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="052D5279-6763-8BE2-AD85-B15E6CC7089E" name="Usuário Cliente PK">
