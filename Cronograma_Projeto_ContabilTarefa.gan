@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Projeto ContabilTarefa" company="ITBX Tech" webLink="http://" view-date="2026-03-19" view-index="0" gantt-divider-location="1345" resource-divider-location="370" version="3.3.3322" locale="pt_BR">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd10" name="ID" width="42" order="0"/>
+        <field id="tpd3" name="Nome" width="577" order="1"/>
+        <field id="tpd4" name="Data inicial" width="128" order="2"/>
+        <field id="tpd5" name="Data final" width="119" order="3"/>
+        <field id="tpd9" name="Predecessoras" width="150" order="4"/>
+        <field id="tpd7" name="Concluído" width="103" order="5"/>
+        <field id="tpd13" name="Recursos" width="225" order="6"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="245" order="0"/>
+        <field id="1" name="Função" width="121" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"><![CDATA[New Year's Day]]></date>
+        <date year="" month="4" date="21" type="HOLIDAY"><![CDATA[Tiradentes Day]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY"><![CDATA[Labor Day]]></date>
+        <date year="" month="9" date="7" type="HOLIDAY"><![CDATA[Independence Day]]></date>
+        <date year="" month="10" date="12" type="HOLIDAY"><![CDATA[Lady of Aparecida]]></date>
+        <date year="" month="11" date="1" type="NEUTRAL"><![CDATA[All Saints Day]]></date>
+        <date year="" month="11" date="2" type="HOLIDAY"><![CDATA[All Souls Days]]></date>
+        <date year="" month="11" date="15" type="HOLIDAY"><![CDATA[Republic Day]]></date>
+        <date year="" month="12" date="25" type="HOLIDAY"><![CDATA[Christmas]]></date>
+        <date year="2026" month="2" date="16" type="HOLIDAY"><![CDATA[Carnival Monday]]></date>
+        <date year="2026" month="2" date="17" type="HOLIDAY"><![CDATA[Carnival Tuesday]]></date>
+        <date year="2026" month="2" date="18" type="HOLIDAY"><![CDATA[Ash Wednesday]]></date>
+        <date year="2026" month="4" date="3" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2026" month="6" date="4" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+        <date year="2026" month="11" date="20" type="HOLIDAY"><![CDATA[Black Awareness Day]]></date>
+        <date year="2025" month="3" date="3" type="HOLIDAY"><![CDATA[Carnival Monday]]></date>
+        <date year="2025" month="3" date="4" type="HOLIDAY"><![CDATA[Carnival Tuesday]]></date>
+        <date year="2025" month="3" date="5" type="HOLIDAY"><![CDATA[Ash Wednesday]]></date>
+        <date year="2025" month="4" date="18" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2025" month="6" date="19" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+        <date year="2025" month="11" date="20" type="HOLIDAY"><![CDATA[Black Awareness Day]]></date>
+        <date year="2022" month="2" date="28" type="HOLIDAY"><![CDATA[Carnival Monday]]></date>
+        <date year="2022" month="2" date="1" type="HOLIDAY"><![CDATA[Carnival Tuesday]]></date>
+        <date year="2022" month="3" date="2" type="HOLIDAY"><![CDATA[Ash Wednesday]]></date>
+        <date year="2022" month="4" date="15" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2022" month="6" date="16" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+        <date year="2012" month="2" date="20" type="HOLIDAY"/>
+        <date year="2012" month="2" date="21" type="HOLIDAY"/>
+        <date year="2012" month="4" date="6" type="HOLIDAY"/>
+        <date year="2012" month="4" date="8" type="HOLIDAY"/>
+        <date year="2012" month="6" date="7" type="HOLIDAY"/>
+        <date year="2005" month="3" date="25" type="HOLIDAY"/>
+        <date year="2006" month="4" date="14" type="HOLIDAY"/>
+        <date year="2007" month="2" date="19" type="HOLIDAY"/>
+        <date year="2007" month="2" date="20" type="HOLIDAY"/>
+        <date year="2007" month="4" date="6" type="HOLIDAY"/>
+        <date year="2007" month="6" date="7" type="HOLIDAY"/>
+        <date year="2008" month="3" date="21" type="HOLIDAY"/>
+        <date year="2009" month="4" date="10" type="HOLIDAY"/>
+        <date year="2010" month="4" date="2" type="HOLIDAY"/>
+        <date year="2011" month="4" date="22" type="HOLIDAY"/>
+        <date year="2011" month="4" date="24" type="HOLIDAY"/>
+        <date year="2017" month="2" date="25" type="HOLIDAY"><![CDATA[Carnival]]></date>
+        <date year="2017" month="2" date="26" type="HOLIDAY"><![CDATA[Carnival]]></date>
+        <date year="2017" month="2" date="27" type="HOLIDAY"><![CDATA[Carnival]]></date>
+        <date year="2017" month="2" date="28" type="HOLIDAY"><![CDATA[Carnival]]></date>
+        <date year="2017" month="4" date="14" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2017" month="6" date="15" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+        <date year="2018" month="2" date="12" type="HOLIDAY"><![CDATA[Carnival Monday]]></date>
+        <date year="2018" month="2" date="13" type="HOLIDAY"><![CDATA[Carnival Tuesday]]></date>
+        <date year="2018" month="3" date="30" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2018" month="5" date="31" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+        <date year="2019" month="3" date="4" type="HOLIDAY"><![CDATA[Carnival Monday]]></date>
+        <date year="2019" month="3" date="5" type="HOLIDAY"><![CDATA[Carnival Tuesday]]></date>
+        <date year="2019" month="4" date="19" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2019" month="6" date="20" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+        <date year="2020" month="2" date="24" type="HOLIDAY"><![CDATA[Carnival Monday]]></date>
+        <date year="2020" month="2" date="25" type="HOLIDAY"><![CDATA[Carnival Tuesday]]></date>
+        <date year="2020" month="4" date="10" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2020" month="6" date="11" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+        <date year="2021" month="2" date="15" type="HOLIDAY"><![CDATA[Carnival Monday]]></date>
+        <date year="2021" month="2" date="16" type="HOLIDAY"><![CDATA[Carnival Tuesday]]></date>
+        <date year="2021" month="2" date="17" type="HOLIDAY"><![CDATA[Ash Wednesday]]></date>
+        <date year="2021" month="4" date="2" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2021" month="6" date="3" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="93f320c5db604927871829a32b12d93e" name="Design" meeting="false" start="2026-02-02" duration="40" complete="90" expand="true">
+            <task id="1" uid="2b4ae935416440938530ddf7ca5b8850" name="Documentação de Requisitos" meeting="false" start="2026-02-02" duration="15" complete="100" expand="true"/>
+            <task id="2" uid="598036c84ea44c8d8d941cd1cce1e8dd" name="Documentação de Processos" meeting="false" start="2026-02-02" duration="30" complete="100" expand="true"/>
+            <task id="3" uid="150a7f491ad94824bf94466b4698f852" name="Modelo de Dados" meeting="false" start="2026-02-02" duration="40" complete="80" expand="false">
+                <task id="4" uid="97c864dfd85b4fe7b5b1812c2cb4daf0" name="ME-R Conceitual" meeting="false" start="2026-02-02" duration="32" complete="100" expand="true">
+                    <depend id="5" type="2" difference="0" hardness="Strong"/>
+                    <depend id="6" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="5" uid="67f4574377c74c84ae032e3480d394b8" name="ME-R Físico" meeting="false" start="2026-03-23" duration="7" complete="0" expand="true">
+                    <depend id="6" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="6" uid="2dbf60f32ee44a9395571e3fbe067917" name="Criação do Script da Base de Dados" meeting="false" start="2026-04-01" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="7" uid="67900e7118564c68bf2ce04e225a82ff" name="Build" meeting="false" start="2026-03-23" duration="13" complete="0" expand="true">
+            <depend id="21" type="2" difference="0" hardness="Rubber"/>
+            <task id="8" uid="79c553cfe72f4654be20664e7af3459d" name="Configuração de ambiente local" meeting="false" start="2026-03-23" duration="1" complete="0" expand="true"/>
+            <task id="9" uid="071bdf315d954e91b4071389618c77c8" name="Configuração de ambiente de homologação" meeting="false" start="2026-03-24" duration="1" complete="0" expand="true"/>
+            <task id="10" uid="427ffc19bd234a888aff01bcdd6e61af" name="Lógica de acesso" meeting="false" start="2026-03-25" duration="1" complete="0" expand="true"/>
+            <task id="11" uid="f679ba49d3b5425ca5cba92675ca7d41" name="Tela de login e separação de contas (admin, contabilidade e cliente)" meeting="false" start="2026-03-26" duration="1" complete="0" expand="true"/>
+            <task id="12" uid="5ebfa3ed6d744adcaac4e115abc2b164" name="Lógica de cadastro de usuários" meeting="false" start="2026-03-30" duration="2" complete="0" expand="true"/>
+            <task id="13" uid="f202b43351634229bea03477fa1560e2" name="Armazenamento de cadastros e telas de cadastros" meeting="false" start="2026-04-01" duration="1" complete="0" expand="true"/>
+            <task id="14" uid="3ac3502d4b9e4474a66822a1253d4aab" name="Tela e lógica de requisição de solicitação de solicitação" meeting="false" start="2026-04-02" duration="1" complete="0" expand="true"/>
+            <task id="15" uid="fc2776601289429c8c78e3f95fba2811" name="Sistema de notificação" meeting="false" start="2026-04-06" duration="1" complete="0" expand="true"/>
+            <task id="16" uid="8ea3d2c90cb349df90fca71b68026702" name="Tela e lógica de Recebimento de solicitações" meeting="false" start="2026-04-07" duration="1" complete="0" expand="true"/>
+            <task id="17" uid="3b93f12a502c49569085453d0c2689d9" name="Tela de download e lógica de permissão" meeting="false" start="2026-04-08" duration="1" complete="0" expand="true"/>
+            <task id="18" uid="32d85ab4d21a423ab3e95ea9eb180ef4" name="Sistema de cadastro de requisições periódicas" meeting="false" start="2026-04-09" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="19" uid="26f55634611a4279967d77d3647c3ab1" name="Test" meeting="false" start="2026-03-23" duration="30" complete="0" expand="true">
+            <task id="20" uid="059dcd40a9994917b6faf3774361605c" name="Documentação Plano de Testes" meeting="false" start="2026-03-23" duration="15" complete="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" uid="632d38df5306496a9985e05b57ba8066" name="Testes unitários" meeting="false" start="2026-04-14" duration="10" complete="0" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="23" uid="7c6009c4ee0843ec9613b4e5835a1217" name="Testes de Aceitação do Usuário (UAT)" meeting="false" start="2026-04-29" duration="5" complete="0" expand="true">
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="24" uid="fa428b10fa9c4b9a8fafcc64d7815138" name="Produção" meeting="false" start="2026-05-07" duration="11" complete="0" expand="true">
+            <task id="25" uid="bf6612c50073427e88f13dc82ae884d1" name="Ambiente de produção" meeting="false" start="2026-05-07" duration="1" complete="0" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" uid="479f4ded7c3d40e4ae45a363b23fa70b" name="Validação em produção" meeting="false" start="2026-05-08" duration="10" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Gustavo" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Thiago" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Mariluce" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Juliana" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="1" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
