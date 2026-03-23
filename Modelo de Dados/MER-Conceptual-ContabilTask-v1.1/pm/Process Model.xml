@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="F5956B6D-64DA-1220-8A20-F795D58B9814">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:18:14 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

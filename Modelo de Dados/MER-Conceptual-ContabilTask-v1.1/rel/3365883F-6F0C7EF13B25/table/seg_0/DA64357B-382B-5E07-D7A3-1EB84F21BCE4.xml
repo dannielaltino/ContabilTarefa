@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA64357B-382B-5E07-D7A3-1EB84F21BCE4" name="Usuario_Cliente">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>8961A466-1E62-1B20-90AA-0EC3DBA3C757</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<abbreviation>UsuCli</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UsuCli_Id" id="3FF76037-3F7F-96F9-EFFC-14CBAD919700">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>39A9C997-2E6F-3E1F-2B4D-740A1C9C4F18</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UsuCli_CNPJ" id="1413AB37-BA6E-FEE2-0AA7-8BE462F98ED4">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>4BFA4433-5A66-2A82-CD08-7CF0A9441BF1</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UsuCli_Nome" id="B14D34F0-D170-3AAA-1394-5BCC5C841E71">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>1624CABA-C122-DB9D-3D6D-CFA0E41FB414</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UsuCli_Email" id="3E520A94-2C57-F9BC-25AD-1C9B4D696851">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>9BC68BD3-0803-A548-6B1D-250069E3049F</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UsuCli_TenantId" id="FD61D424-96F9-3D17-5D02-17ACB5907F15">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>9358CE69-1BCC-C44A-C6C9-2FC510A290B8</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="055CD872-5DCB-122A-4678-AB0DD883DB87" referredColumn="9011AE26-3F8F-9D6C-CFC5-B8E947631285"/>
+</associations>
+</Column>
+<Column name="UsuCli_Inadimplente" id="047E80C0-6CE9-B89C-49CE-5727D0A7DABB">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>F1EE69B6-56C2-6A6E-5422-072909D4B245</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D383BD32-52C4-F074-6C90-109E3EA11B89" name="Usuario_Cliente_PK">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>052D5279-6763-8BE2-AD85-B15E6CC7089E</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FF76037-3F7F-96F9-EFFC-14CBAD919700"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEE02856-6CA2-B217-E4AD-B0EF683789ED" name="Usuario_Cliente_Tenant_FK">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>5CE3AD7D-7825-01CC-0183-5793A8B42427</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD61D424-96F9-3D17-5D02-17ACB5907F15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="73A516B9-98E1-5FB1-2F54-300C337FE792" mainViewID="801DA37B-AF07-CD54-6E53-2632A10B86BE">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:18:14 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.0</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

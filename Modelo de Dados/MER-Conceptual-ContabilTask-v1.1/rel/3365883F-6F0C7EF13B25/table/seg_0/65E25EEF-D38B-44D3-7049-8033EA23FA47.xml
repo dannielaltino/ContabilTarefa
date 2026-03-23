@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65E25EEF-D38B-44D3-7049-8033EA23FA47" name="Andamento_Execucao_Servico">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>4B7BE1F7-ED2C-331A-4220-BC7F05B41C59</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<abbreviation>AndExeSer</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AndExeSer_Id" id="DE5B2788-D853-F376-B7F1-3CBAA9302BCD">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>914DDAE8-46A7-35B3-B92E-0D4E84A79205</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AndExeSer_ExeSer_Id" id="4ED228FC-CE9C-154F-14FE-314BB44B3AD9">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>D96906FB-A317-9A6B-7EB8-18F2B1191A44</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="723367CA-7EF0-52B3-6878-801C8C388E7E" referredColumn="8B5BC0A8-3050-1CDF-5116-A165F69BEA0C"/>
+</associations>
+</Column>
+<Column name="AndExeSer_Descricao" id="13DF4877-C72D-CED7-C561-6C160945525A">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>54B79A61-A8D7-473F-A069-8D12428F59EF</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AndExeSer_Data" id="9D7A9111-2595-5424-AF5A-F087D71F117B">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>D852DFCB-DC3F-FBEE-2412-BC10E908118A</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AndExeSer_Status" id="AB580E87-9580-6637-DD36-EFD6449A226A">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>828D4A35-93E2-C57F-1E11-6B226BAF6F37</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA064B5D-D53F-5884-BE53-4C447B8924E1" name="Andamento_Execucao_Servico_PK">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>2F5ACABC-C81A-5DF6-A641-8B322987BC85</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE5B2788-D853-F376-B7F1-3CBAA9302BCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA5218E5-A40C-25BC-9FD0-30F3F56F777F" name="AndamentoExeSer_ExeSer_FK">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>D9597EDD-7E66-F739-8058-53B63993F1AF</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ED228FC-CE9C-154F-14FE-314BB44B3AD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

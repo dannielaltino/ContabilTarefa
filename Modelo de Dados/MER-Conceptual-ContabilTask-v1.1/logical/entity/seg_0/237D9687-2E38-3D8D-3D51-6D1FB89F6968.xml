@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="237D9687-2E38-3D8D-3D51-6D1FB89F6968" name="Usuário da Contabilidade">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:33:27 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>AccountingUser</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Identificador do Usuario da Contabilidade" id="E3DC3F38-A479-642F-E8E7-69B17194C1C8">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:34:08 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>accountingUserId</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>accountingUserId</preferredAbbreviation>
+<source>accountingUserId</source>
+</Attribute>
+<Attribute name="Nome do Usuario da Contabilidade" id="5F99DFB3-07AF-7553-C496-24C7D53C5615">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:35:09 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>accountingUserDesc</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>accountingUserDesc</preferredAbbreviation>
+<source>accountingUserDesc</source>
+</Attribute>
+<Attribute name="Email do Usuario da Contabilidade" id="BF66ED0C-767C-CBA1-F636-9FF9452FCC10">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:36:28 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>accountingUserEmail</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>accountingUserEmail</preferredAbbreviation>
+<source>accountingUserEmail</source>
+</Attribute>
+<Attribute name="Identificador do Tenant" id="CD4684F9-4109-4BBD-9457-0DCF62FDF981">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:53:23 UTC</createdTime>
+<generatorID>DE0399D0-9A08-868E-77F1-E9BFCB335C95</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<referedAttribute>387FAB43-4301-C8B8-F2EA-78A247A7F128</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0DEC5B73-6C79-CF68-FEC3-371E9B0740BA" name="Usuario PK">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:34:36 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E3DC3F38-A479-642F-E8E7-69B17194C1C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

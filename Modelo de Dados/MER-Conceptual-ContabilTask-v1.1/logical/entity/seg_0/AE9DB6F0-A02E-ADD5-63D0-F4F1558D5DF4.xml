@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE9DB6F0-A02E-ADD5-63D0-F4F1558D5DF4" name="Tenant">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:23:30 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>tenant</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Identificador do Tenant" id="387FAB43-4301-C8B8-F2EA-78A247A7F128">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:24:55 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<sourceType>System</sourceType>
+<synonym>tenantId</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>tenantId</preferredAbbreviation>
+<source>tenantId</source>
+</Attribute>
+<Attribute name="Descricao do Tenant" id="E2FBE2BF-A95A-AA73-DB2E-C237E56878D8">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:26:59 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>tenantDesc</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>tenantDesc</preferredAbbreviation>
+<source>tenantDesc</source>
+</Attribute>
+<Attribute name="CNPJ do Tenant" id="F254660D-43DC-6FC2-CA83-5326875B9E76">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-08 20:00:28 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>tenantCNPJ</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>tenantCNPJ</preferredAbbreviation>
+<source>tenantCNPJ</source>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="307E3AA8-76AD-4358-D039-345DCABDCA5F" name="Tenant PK">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-02-23 23:25:37 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>387FAB43-4301-C8B8-F2EA-78A247A7F128</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="723367CA-7EF0-52B3-6878-801C8C388E7E" containerWithKeyObject="65E25EEF-D38B-44D3-7049-8033EA23FA47" localFKIndex="EA5218E5-A40C-25BC-9FD0-30F3F56F777F" name="AndamentoExeSer_ExeSer_FK">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-23 13:29:23 UTC</createdTime>
+<generatorID>D9597EDD-7E66-F739-8058-53B63993F1AF</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<referredTableLongName>Execucao_Servico</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>16132FEB-0786-21A8-BEF8-84107B3043A0</referredTableID>
+<keyObject>56A37685-A12A-4645-AED8-489EFE2DF23D</keyObject>
+<referredKeyID>56A37685-A12A-4645-AED8-489EFE2DF23D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ExeSer_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

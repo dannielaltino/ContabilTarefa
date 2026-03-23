@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8961A466-1E62-1B20-90AA-0EC3DBA3C757" name="Usuário Cliente">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-06 20:00:21 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ClientUser</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Identificador do Usuário Cliente" id="39A9C997-2E6F-3E1F-2B4D-740A1C9C4F18">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-06 20:01:22 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>userClientId</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>userClientId</preferredAbbreviation>
+<source>userClientId</source>
+</Attribute>
+<Attribute name="CNPJ do Usuário Cliente" id="4BFA4433-5A66-2A82-CD08-7CF0A9441BF1">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-08 20:03:08 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>userClientCNPJ</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>userClientCNPJ</preferredAbbreviation>
+<source>userClientCNPJ</source>
+</Attribute>
+<Attribute name="Nome do Usuário Cliente" id="1624CABA-C122-DB9D-3D6D-CFA0E41FB414">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-06 20:07:49 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>userClientName</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>userClientName</preferredAbbreviation>
+<source>userClientName</source>
+</Attribute>
+<Attribute name="Email do Usuário Cliente" id="9BC68BD3-0803-A548-6B1D-250069E3049F">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-06 20:08:48 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>userClientEmail</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>userClientEmail</preferredAbbreviation>
+<source>userClientEmail</source>
+</Attribute>
+<Attribute name="Identificador do Tenant" id="9358CE69-1BCC-C44A-C6C9-2FC510A290B8">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-06 20:10:24 UTC</createdTime>
+<generatorID>5CE3AD7D-7825-01CC-0183-5793A8B42427</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<referedAttribute>387FAB43-4301-C8B8-F2EA-78A247A7F128</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Inadimplente" id="F1EE69B6-56C2-6A6E-5422-072909D4B245">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-20 16:43:27 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>userClientInadimplente</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<preferredAbbreviation>userClientInadimplente</preferredAbbreviation>
+<source>userClientInadimplente</source>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="052D5279-6763-8BE2-AD85-B15E6CC7089E" name="Usuário Cliente PK">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-06 20:04:41 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>39A9C997-2E6F-3E1F-2B4D-740A1C9C4F18</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
