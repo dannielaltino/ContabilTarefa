@@ -1,0 +1,18 @@
+-- Inserção dos dados Tipo_Documento
+
+INSERT INTO TipoDoc (tipodoc_id, tipodoc_descricao) VALUES
+(1, 'Nota Fiscal Eletrônica (NF-e)'),
+(2, 'Nota Fiscal de Serviços Eletrônica (NFS-e)'),
+(3, 'Cupom Fiscal (NFC-e / SAT)'),
+(4, 'Contratos de Prestação de Serviços'),
+(5, 'Faturas e Boletos Bancários'),
+(6, 'Recibos de Pagamento'),
+(7, 'Folha de Pagamento (Holerites)'),
+(8, 'Comprovantes de Gastos (Reembolsos)'),
+(9, 'Extratos Bancários'),
+(10, 'Comprovantes de Transferência e Depósito'),
+(11, 'Contratos de Câmbio e Empréstimos'),
+(12, 'Apólices de Seguro'),
+(13, 'Balanço Patrimonial'),
+(14, 'DRE (Demonstração do Resultado do Exercício)'),
+(15, 'DMPL (Demonstração das Mutações do Patrimônio Líquido)');
