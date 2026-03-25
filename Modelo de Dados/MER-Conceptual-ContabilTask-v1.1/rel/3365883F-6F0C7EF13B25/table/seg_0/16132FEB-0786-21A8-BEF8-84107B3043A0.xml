@@ -62,6 +62,20 @@
 <colAssociation fkAssociation="6246149F-0688-B256-55B2-8C0E005DA7D6" referredColumn="3FF76037-3F7F-96F9-EFFC-14CBAD919700"/>
 </associations>
 </Column>
+<Column name="Servico_Serv_Id" id="F39EF65D-8814-53B7-65F1-4DDB08FEF597">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-25 13:10:12 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="120D1481-DBEE-8CDC-F216-F5F6E09FD828" referredColumn="18DD4DAC-EEAC-53E8-8BC6-3339C8BD86FB"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="56A37685-A12A-4645-AED8-489EFE2DF23D" name="Execucao_Servico_PK">
@@ -96,6 +110,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A05E93BA-542A-B030-060C-8315D8AD091A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="960FA1B5-1196-68DB-83FB-4DA449889202" name="Execucao_Servico_Servico_FK">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-25 13:01:16 UTC</createdTime>
+<generatorID>36C05E9B-1DDC-F67A-E777-6D92A7125279</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F39EF65D-8814-53B7-65F1-4DDB08FEF597"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

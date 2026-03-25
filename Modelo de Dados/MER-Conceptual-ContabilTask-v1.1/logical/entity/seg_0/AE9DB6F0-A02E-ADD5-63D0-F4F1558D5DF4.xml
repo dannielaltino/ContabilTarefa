@@ -3,8 +3,9 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-23 23:23:30 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,8 +21,9 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-23 23:24:55 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
 </engineerTo>
 <sourceType>System</sourceType>
 <synonym>tenantId</synonym>
@@ -36,8 +38,9 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-23 23:26:59 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
 </engineerTo>
 <synonym>tenantDesc</synonym>
 <useDomainConstraints>false</useDomainConstraints>
@@ -51,8 +54,9 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-03-08 20:00:28 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
 </engineerTo>
 <synonym>tenantCNPJ</synonym>
 <useDomainConstraints>false</useDomainConstraints>
@@ -68,8 +72,9 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-23 23:25:37 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

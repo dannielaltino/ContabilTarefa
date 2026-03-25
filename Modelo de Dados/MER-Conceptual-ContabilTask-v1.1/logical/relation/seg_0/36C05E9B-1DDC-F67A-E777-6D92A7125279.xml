@@ -1,20 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_UsuarioContabilidade_tb_ExecucaoServico" directorySegmentName="seg_0" id="1C90F2E5-9B4E-DC24-AE2C-78021B7D5E89">
-<createdBy>gtrad2038</createdBy>
-<createdTime>2026-03-06 19:57:39 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_servico_tb_execucaoServico" directorySegmentName="seg_0" id="36C05E9B-1DDC-F67A-E777-6D92A7125279">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-25 12:46:03 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
 </engineerTo>
-<sourcePk>0DEC5B73-6C79-CF68-FEC3-371E9B0740BA</sourcePk>
+<sourcePk>5488A505-C2BA-08BB-3F22-7F2165FC8086</sourcePk>
+<targetPk>A6E389EC-207A-44FA-7C23-1259FEB6AA69</targetPk>
 <identifying>false</identifying>
-<nameOnSource>pode atender</nameOnSource>
-<nameOnTarget>é atendida por um</nameOnTarget>
+<nameOnSource>em uma</nameOnSource>
+<nameOnTarget>de um</nameOnTarget>
 <optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>237D9687-2E38-3D8D-3D51-6D1FB89F6968</sourceEntity>
+<sourceEntity>CADE70E6-612C-D8EA-1BA7-DA20E9F8B8D9</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>A33D4D7C-D7C7-B576-D08C-1CF4C951F6BF</targetEntity>
 <transferable>true</transferable>

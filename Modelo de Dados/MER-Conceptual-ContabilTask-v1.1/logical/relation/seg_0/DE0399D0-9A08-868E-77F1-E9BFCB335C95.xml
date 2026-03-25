@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_tenant_tb_accountingUser" directorySegmentName="seg_0" id="DE0399D0-9A08-868E-77F1-E9BFCB335C95">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_tenant_tb_usuarioContabilidade" directorySegmentName="seg_0" id="DE0399D0-9A08-868E-77F1-E9BFCB335C95">
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-23 23:53:23 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
 </engineerTo>
 <sourcePk>307E3AA8-76AD-4358-D039-345DCABDCA5F</sourcePk>
 <identifying>false</identifying>

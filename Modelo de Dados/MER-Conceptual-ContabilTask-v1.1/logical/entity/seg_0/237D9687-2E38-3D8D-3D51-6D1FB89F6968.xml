@@ -3,8 +3,9 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-23 23:33:27 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,8 +21,9 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-23 23:34:08 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
 </engineerTo>
 <synonym>accountingUserId</synonym>
 <useDomainConstraints>false</useDomainConstraints>
@@ -35,8 +37,9 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-23 23:35:09 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
 </engineerTo>
 <synonym>accountingUserDesc</synonym>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,8 +53,9 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-23 23:36:28 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
 </engineerTo>
 <synonym>accountingUserEmail</synonym>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,10 +70,24 @@
 <createdTime>2026-02-23 23:53:23 UTC</createdTime>
 <generatorID>DE0399D0-9A08-868E-77F1-E9BFCB335C95</generatorID>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
+</engineerTo>
+<referedAttribute>387FAB43-4301-C8B8-F2EA-78A247A7F128</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF do Usuário da Contabilidade" id="EA103223-2DDA-C0BA-A7A8-058662131600">
+<createdBy>Milagre</createdBy>
+<createdTime>2026-03-25 13:07:58 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<referedAttribute>387FAB43-4301-C8B8-F2EA-78A247A7F128</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -81,8 +99,9 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-02-23 23:34:36 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

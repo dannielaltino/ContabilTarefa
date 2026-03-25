@@ -47,7 +47,7 @@
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="AndExeSer_Data" id="9D7A9111-2595-5424-AF5A-F087D71F117B">
+<Column name="AndExeSer_DataCriacao" id="9D7A9111-2595-5424-AF5A-F087D71F117B">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>D852DFCB-DC3F-FBEE-2412-BC10E908118A</generatorID>

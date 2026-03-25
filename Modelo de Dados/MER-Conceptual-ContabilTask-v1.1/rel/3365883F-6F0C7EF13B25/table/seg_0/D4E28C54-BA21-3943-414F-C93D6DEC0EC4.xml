@@ -32,7 +32,7 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Doc_Data" id="9FF7C542-1125-78F9-63CE-7F79E9A0F539">
+<Column name="Doc_DataCriacao" id="9FF7C542-1125-78F9-63CE-7F79E9A0F539">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>73BDE91D-D7C8-EC8F-C2F8-9DBC2F383F2A</generatorID>

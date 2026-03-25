@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_ServiceExecution_tb_FollowUpServiceExecution" directorySegmentName="seg_0" id="D9597EDD-7E66-F739-8058-53B63993F1AF">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_tb_execucaoServico_tb_andamentoExecucaoServico" directorySegmentName="seg_0" id="D9597EDD-7E66-F739-8058-53B63993F1AF">
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-03-02 13:00:54 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
 </engineerTo>
 <sourcePk>A6E389EC-207A-44FA-7C23-1259FEB6AA69</sourcePk>
 <identifying>false</identifying>

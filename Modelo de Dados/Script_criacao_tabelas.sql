@@ -1,12 +1,12 @@
 -- Gerado por Oracle SQL Developer Data Modeler 23.1.0.087.0806
---   em:        2026-03-23 11:54:08 BRT
+--   em:        2026-03-25 10:55:03 BRT
 
 CREATE TABLE andamento_execucao_servico (
-    andexeser_id        INTEGER NOT NULL,
-    andexeser_exeser_id INTEGER NOT NULL,
-    andexeser_descricao VARCHAR2(1000) NOT NULL,
-    andexeser_data      DATE NOT NULL,
-    andexeser_status    CHAR(1) NOT NULL
+    andexeser_id          INTEGER NOT NULL,
+    andexeser_exeser_id   INTEGER NOT NULL,
+    andexeser_descricao   VARCHAR2(1000) NOT NULL,
+    andexeser_datacriacao DATETIME NOT NULL,
+    andexeser_status      CHAR(1) NOT NULL
 );
 
 ALTER TABLE andamento_execucao_servico ADD CONSTRAINT andamento_execucao_servico_pk PRIMARY KEY ( andexeser_id );
@@ -14,7 +14,7 @@ ALTER TABLE andamento_execucao_servico ADD CONSTRAINT andamento_execucao_servico
 CREATE TABLE documento (
     doc_id           INTEGER NOT NULL,
     doc_nome         VARCHAR2(100) NOT NULL,
-    doc_data         DATE NOT NULL,
+    doc_datacriacao  DATETIME NOT NULL,
     doc_caminho      VARCHAR2(250) NOT NULL,
     doc_tipodoc_id   INTEGER NOT NULL,
     doc_andexeser_id INTEGER NOT NULL
@@ -24,9 +24,10 @@ ALTER TABLE documento ADD CONSTRAINT documento_pk PRIMARY KEY ( doc_id );
 
 CREATE TABLE execucao_servico (
     exeser_id          INTEGER NOT NULL,
-    exeser_datacriacao DATE NOT NULL,
+    exeser_datacriacao DATETIME NOT NULL,
     exeser_tenant_id   INTEGER,
-    exeser_usucli_id   INTEGER NOT NULL
+    exeser_usucli_id   INTEGER NOT NULL,
+    servico_serv_id    INTEGER NOT NULL
 );
 
 ALTER TABLE execucao_servico ADD CONSTRAINT execucao_servico_pk PRIMARY KEY ( exeser_id );
@@ -74,10 +75,11 @@ CREATE TABLE usuario_cliente (
 ALTER TABLE usuario_cliente ADD CONSTRAINT usuario_cliente_pk PRIMARY KEY ( usucli_id );
 
 CREATE TABLE usuario_contabilidade (
-    usucont_id        INTEGER NOT NULL,
-    usucont_nome      VARCHAR2(100) NOT NULL,
-    usucont_email     VARCHAR2(50) NOT NULL,
-    usucont_tenant_id INTEGER NOT NULL
+    usucont_id          INTEGER NOT NULL,
+    usucont_nome        VARCHAR2(100) NOT NULL,
+    usucont_email       VARCHAR2(50) NOT NULL,
+    usucont_tenant_id   INTEGER NOT NULL,
+    usucont_cpf_usuario INTEGER
 );
 
 ALTER TABLE usuario_contabilidade ADD CONSTRAINT usuario_contabilidade_pk PRIMARY KEY ( usucont_id );
@@ -93,6 +95,10 @@ ALTER TABLE documento
 ALTER TABLE documento
     ADD CONSTRAINT documento_tipo_documento_fk FOREIGN KEY ( doc_tipodoc_id )
         REFERENCES tipo_documento ( tipodoc_id );
+
+ALTER TABLE execucao_servico
+    ADD CONSTRAINT execucao_servico_servico_fk FOREIGN KEY ( servico_serv_id )
+        REFERENCES servico ( serv_id );
 
 ALTER TABLE execucao_servico
     ADD CONSTRAINT execucaoservico_usucliente_fk FOREIGN KEY ( exeser_usucli_id )
@@ -124,7 +130,7 @@ ALTER TABLE usuario_contabilidade
 -- 
 -- CREATE TABLE                             9
 -- CREATE INDEX                             0
--- ALTER TABLE                             18
+-- ALTER TABLE                             19
 -- CREATE VIEW                              0
 -- ALTER VIEW                               0
 -- CREATE PACKAGE                           0
