@@ -3,9 +3,8 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-03-06 20:00:21 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,9 +20,8 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-03-06 20:01:22 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
 <synonym>userClientId</synonym>
 <useDomainConstraints>false</useDomainConstraints>
@@ -37,9 +35,8 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-03-08 20:03:08 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
 <synonym>userClientCNPJ</synonym>
 <useDomainConstraints>false</useDomainConstraints>
@@ -53,9 +50,8 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-03-06 20:07:49 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
 <synonym>userClientName</synonym>
 <useDomainConstraints>false</useDomainConstraints>
@@ -69,9 +65,8 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-03-06 20:08:48 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
 <synonym>userClientEmail</synonym>
 <useDomainConstraints>false</useDomainConstraints>
@@ -86,9 +81,8 @@
 <createdTime>2026-03-06 20:10:24 UTC</createdTime>
 <generatorID>5CE3AD7D-7825-01CC-0183-5793A8B42427</generatorID>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
 <referedAttribute>387FAB43-4301-C8B8-F2EA-78A247A7F128</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -100,9 +94,8 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-03-20 16:43:27 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
 <synonym>userClientInadimplente</synonym>
 <useDomainConstraints>false</useDomainConstraints>
@@ -119,9 +112,8 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-03-06 20:04:41 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

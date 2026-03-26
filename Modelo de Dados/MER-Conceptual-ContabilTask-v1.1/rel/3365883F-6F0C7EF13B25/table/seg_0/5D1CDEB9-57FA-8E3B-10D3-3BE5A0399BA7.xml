@@ -4,12 +4,12 @@
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>AE9DB6F0-A02E-ADD5-63D0-F4F1558D5DF4</generatorID>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<abbreviation>Tenant</abbreviation>
+<abbreviation>tenant</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Tenant_Id" id="9011AE26-3F8F-9D6C-CFC5-B8E947631285">
+<Column name="tenantId" id="9011AE26-3F8F-9D6C-CFC5-B8E947631285">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>387FAB43-4301-C8B8-F2EA-78A247A7F128</generatorID>
@@ -21,7 +21,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tenant_Nome" id="735A4874-638F-0244-D266-E75796EB1878">
+<Column name="tenantDesc" id="735A4874-638F-0244-D266-E75796EB1878">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>E2FBE2BF-A95A-AA73-DB2E-C237E56878D8</generatorID>
@@ -29,11 +29,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tenant_CNPJ" id="80A45FB0-233D-D311-51F3-3D6C302AECD8">
+<Column name="tenantCNPJ" id="80A45FB0-233D-D311-51F3-3D6C302AECD8">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>F254660D-43DC-6FC2-CA83-5326875B9E76</generatorID>
@@ -41,8 +40,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

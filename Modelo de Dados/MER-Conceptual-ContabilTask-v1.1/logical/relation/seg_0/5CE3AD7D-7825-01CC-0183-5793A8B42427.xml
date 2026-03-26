@@ -3,9 +3,8 @@
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-03-06 20:10:24 UTC</createdTime>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="false"/>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
 <sourcePk>307E3AA8-76AD-4358-D039-345DCABDCA5F</sourcePk>
 <identifying>false</identifying>

@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA64357B-382B-5E07-D7A3-1EB84F21BCE4" name="Usuario_Cliente">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA64357B-382B-5E07-D7A3-1EB84F21BCE4" name="Usuário_Cliente">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>8961A466-1E62-1B20-90AA-0EC3DBA3C757</generatorID>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<abbreviation>UsuCli</abbreviation>
+<abbreviation>ClientUser</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="UsuCli_Id" id="3FF76037-3F7F-96F9-EFFC-14CBAD919700">
+<Column name="userClientId" id="3FF76037-3F7F-96F9-EFFC-14CBAD919700">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>39A9C997-2E6F-3E1F-2B4D-740A1C9C4F18</generatorID>
@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="UsuCli_CNPJ" id="1413AB37-BA6E-FEE2-0AA7-8BE462F98ED4">
+<Column name="userClientCNPJ" id="1413AB37-BA6E-FEE2-0AA7-8BE462F98ED4">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>4BFA4433-5A66-2A82-CD08-7CF0A9441BF1</generatorID>
@@ -28,11 +28,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="UsuCli_Nome" id="B14D34F0-D170-3AAA-1394-5BCC5C841E71">
+<Column name="userClientName" id="B14D34F0-D170-3AAA-1394-5BCC5C841E71">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>1624CABA-C122-DB9D-3D6D-CFA0E41FB414</generatorID>
@@ -40,11 +39,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="UsuCli_Email" id="3E520A94-2C57-F9BC-25AD-1C9B4D696851">
+<Column name="userClientEmail" id="3E520A94-2C57-F9BC-25AD-1C9B4D696851">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>9BC68BD3-0803-A548-6B1D-250069E3049F</generatorID>
@@ -52,11 +50,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="UsuCli_TenantId" id="FD61D424-96F9-3D17-5D02-17ACB5907F15">
+<Column name="Tenant_Tenant_Id" id="FD61D424-96F9-3D17-5D02-17ACB5907F15">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>9358CE69-1BCC-C44A-C6C9-2FC510A290B8</generatorID>
@@ -71,7 +68,7 @@
 <colAssociation fkAssociation="055CD872-5DCB-122A-4678-AB0DD883DB87" referredColumn="9011AE26-3F8F-9D6C-CFC5-B8E947631285"/>
 </associations>
 </Column>
-<Column name="UsuCli_Inadimplente" id="047E80C0-6CE9-B89C-49CE-5727D0A7DABB">
+<Column name="userClientInadimplente" id="047E80C0-6CE9-B89C-49CE-5727D0A7DABB">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>F1EE69B6-56C2-6A6E-5422-072909D4B245</generatorID>

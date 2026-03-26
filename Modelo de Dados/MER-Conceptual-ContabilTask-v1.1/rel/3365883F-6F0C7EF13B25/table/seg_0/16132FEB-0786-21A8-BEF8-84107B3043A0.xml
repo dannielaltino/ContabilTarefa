@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16132FEB-0786-21A8-BEF8-84107B3043A0" name="Execucao_Servico">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16132FEB-0786-21A8-BEF8-84107B3043A0" name="Execucao_do_Servico">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>A33D4D7C-D7C7-B576-D08C-1CF4C951F6BF</generatorID>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<abbreviation>ExeSer</abbreviation>
+<abbreviation>ServiceExecution</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ExeSer_Id" id="8B5BC0A8-3050-1CDF-5116-A165F69BEA0C">
+<Column name="serviceExecutionId" id="8B5BC0A8-3050-1CDF-5116-A165F69BEA0C">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>29E4C4FB-B7CA-9EF9-6DE4-444996B58A07</generatorID>
@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ExeSer_DataCriacao" id="22D6B33B-C6CE-2403-4400-6E1126BE8506">
+<Column name="serviceExecutionDateTimeCreation" id="22D6B33B-C6CE-2403-4400-6E1126BE8506">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>A098C11E-26E4-5001-9EEC-7DA7A0667D7F</generatorID>
@@ -31,7 +31,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ExeSer_Tenant_Id" id="778C1A60-72F9-31FB-EB50-9C3B3D871E31">
+<Column name="Usuario_Contabilidade_UsuCont_Id" id="778C1A60-72F9-31FB-EB50-9C3B3D871E31">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>7F13DF95-D345-35E5-9346-2CFE97F2AFF3</generatorID>
@@ -47,7 +47,7 @@
 <colAssociation fkAssociation="179A9119-F661-91D7-A013-F4AA39146689" referredColumn="A65741A5-3151-134B-9B88-288619824581"/>
 </associations>
 </Column>
-<Column name="ExeSer_UsuCli_Id" id="A05E93BA-542A-B030-060C-8315D8AD091A">
+<Column name="Usuario_Cliente_UsuCli_Id" id="A05E93BA-542A-B030-060C-8315D8AD091A">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>DD3A0043-0531-770C-6FF0-E78944563112</generatorID>
@@ -76,6 +76,18 @@
 <colAssociation fkAssociation="120D1481-DBEE-8CDC-F216-F5F6E09FD828" referredColumn="18DD4DAC-EEAC-53E8-8BC6-3339C8BD86FB"/>
 </associations>
 </Column>
+<Column name="Identificador_do_Serviço" id="A898E063-3779-D9A0-A455-4F56F108E018">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-03-25 22:46:42 UTC</createdTime>
+<generatorID>ECB66E08-6B2E-D1DC-BAFD-11506EDF0570</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="56A37685-A12A-4645-AED8-489EFE2DF23D" name="Execucao_Servico_PK">
@@ -90,7 +102,7 @@
 <colUsage columnID="8B5BC0A8-3050-1CDF-5116-A165F69BEA0C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="421FB363-74B3-0783-D754-EF307F3475C1" name="ExecucaoServico_UsuContab_FK">
+<ind_PK_UK id="421FB363-74B3-0783-D754-EF307F3475C1" name="Execucao_Servico_Usuario_Contabilidade_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>1C90F2E5-9B4E-DC24-AE2C-78021B7D5E89</generatorID>
@@ -101,7 +113,7 @@
 <colUsage columnID="778C1A60-72F9-31FB-EB50-9C3B3D871E31"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4008F55C-AAAE-A416-AD78-859FE5CDC122" name="ExecucaoServico_UsuCliente_FK">
+<ind_PK_UK id="4008F55C-AAAE-A416-AD78-859FE5CDC122" name="Execucao_Servico_Usuario_Cliente_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>16009819-1DC7-91C3-1852-EFA6AC8818C1</generatorID>

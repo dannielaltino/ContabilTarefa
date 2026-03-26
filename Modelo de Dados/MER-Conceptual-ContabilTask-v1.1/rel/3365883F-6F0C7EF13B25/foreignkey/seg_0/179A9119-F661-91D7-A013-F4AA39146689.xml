@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="179A9119-F661-91D7-A013-F4AA39146689" containerWithKeyObject="16132FEB-0786-21A8-BEF8-84107B3043A0" localFKIndex="421FB363-74B3-0783-D754-EF307F3475C1" name="ExecucaoServico_UsuContab_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="179A9119-F661-91D7-A013-F4AA39146689" containerWithKeyObject="16132FEB-0786-21A8-BEF8-84107B3043A0" localFKIndex="421FB363-74B3-0783-D754-EF307F3475C1" name="Execucao_Servico_Usuario_Contabilidade_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>1C90F2E5-9B4E-DC24-AE2C-78021B7D5E89</generatorID>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<referredTableLongName>Usuario_Contabilidade</referredTableLongName>
+<referredTableLongName>Usuário_da_Contabilidade</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>AC15B40B-F843-4270-C5AE-1CB6ED34C0EA</referredTableID>
 <keyObject>E1E0275E-AB17-FB35-91FB-E919ED1D183C</keyObject>
 <referredKeyID>E1E0275E-AB17-FB35-91FB-E919ED1D183C</referredKeyID>
 <mandatory>false</mandatory>
-<refColNames>UsuCont_Id</refColNames>
+<refColNames>accountingUserId</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

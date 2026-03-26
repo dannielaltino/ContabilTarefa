@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E62D580-CA9D-D25F-5DCC-C6ADA3331655" name="Tipo_Documento">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E62D580-CA9D-D25F-5DCC-C6ADA3331655" name="Tipo_de_Documento">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>99D435B1-41B1-5926-3E99-7E10A2EDE6DF</generatorID>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
 <ordsAlias>tipo_de_documento</ordsAlias>
-<abbreviation>TipoDoc</abbreviation>
+<abbreviation>documentType</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="TipoDoc_Id" id="049DE4F5-98D1-3D68-DCD9-663342E5EEDF">
+<Column name="docTypeId" id="049DE4F5-98D1-3D68-DCD9-663342E5EEDF">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>F77C4211-AE1E-D6BF-36A5-788423ABF401</generatorID>
@@ -21,7 +21,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TipoDoc_Descricao" id="C6831D73-EF4B-58F9-2082-DDDCB6B98485">
+<Column name="docTypeDesc" id="C6831D73-EF4B-58F9-2082-DDDCB6B98485">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>B23BC704-CB4F-C17F-3C89-9D43B7FF434D</generatorID>
@@ -29,8 +29,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

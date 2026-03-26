@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CFD5612-7740-F2C8-BFA2-807092361EBC" name="Servicos_Cliente">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CFD5612-7740-F2C8-BFA2-807092361EBC" name="Serviços_de_Cliente">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>98B3846E-B4A3-A628-49E4-77AE51E73CD7</generatorID>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<abbreviation>ServiCli</abbreviation>
+<abbreviation>ClientServices</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ServCli_Id" id="6CF8E8A5-287D-5F9D-CAF2-9B00684740A4">
+<Column name="clientServiceId" id="6CF8E8A5-287D-5F9D-CAF2-9B00684740A4">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>F93FBDF9-D31A-2353-A3A2-4062C2C47E87</generatorID>
@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ServCli_Serv_Id" id="4AA5D1DE-2304-D8A4-1AE4-A87C794FD682">
+<Column name="Servico_Serv_Id" id="4AA5D1DE-2304-D8A4-1AE4-A87C794FD682">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>0090A8AB-0406-672D-CB34-FB8798E25BBE</generatorID>
@@ -35,7 +35,7 @@
 <colAssociation fkAssociation="DBCE099D-9977-FB16-94A7-59041DC5C322" referredColumn="18DD4DAC-EEAC-53E8-8BC6-3339C8BD86FB"/>
 </associations>
 </Column>
-<Column name="ServCli_UsuCli_Id" id="BDC4B94E-3D50-1D97-726C-00415C920859">
+<Column name="Usuario_Cliente_UsuCli_Id" id="BDC4B94E-3D50-1D97-726C-00415C920859">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>D0D2BAC8-4FC7-5EA4-F5A0-6EB8D83CA768</generatorID>
@@ -50,7 +50,7 @@
 <colAssociation fkAssociation="F2158602-A39E-ADD0-823C-B474D32C0136" referredColumn="3FF76037-3F7F-96F9-EFFC-14CBAD919700"/>
 </associations>
 </Column>
-<Column name="ServCli_Frequencia" id="04D4210E-EB4F-B587-D05D-04D4CE47F644">
+<Column name="clientServiceFreq" id="04D4210E-EB4F-B587-D05D-04D4CE47F644">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>24FCAA65-11F2-88BF-1048-B5490F829C91</generatorID>
@@ -58,8 +58,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -76,7 +75,7 @@
 <colUsage columnID="6CF8E8A5-287D-5F9D-CAF2-9B00684740A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="45228C43-C7F0-931B-6285-F95AF1B150C3" name="ServicosCli_UsuCliente_FK">
+<ind_PK_UK id="45228C43-C7F0-931B-6285-F95AF1B150C3" name="Servicos_Cliente_Usuario_Cliente_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>221B0616-61FE-2D59-B9B6-344E3079FE5E</generatorID>
@@ -87,7 +86,7 @@
 <colUsage columnID="BDC4B94E-3D50-1D97-726C-00415C920859"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8F68E71F-2D08-4906-17D9-0B4DB3F8EDFD" name="ServicosCli_Servico_FK">
+<ind_PK_UK id="8F68E71F-2D08-4906-17D9-0B4DB3F8EDFD" name="Servicos_Cliente_Servico_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>57655845-C9E5-91B3-FB25-89AA8207A913</generatorID>
