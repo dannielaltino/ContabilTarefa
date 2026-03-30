@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Projeto ContabilTarefa" company="ITBX Tech" webLink="http://" view-date="2026-04-15" view-index="0" gantt-divider-location="1618" resource-divider-location="370" version="3.3.3322" locale="pt_BR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Projeto ContabilTarefa" company="ITBX Tech" webLink="http://" view-date="2026-04-15" view-index="0" gantt-divider-location="1825" resource-divider-location="370" version="3.3.3322" locale="pt_BR">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd10" name="ID" width="61" order="0"/>
-        <field id="tpd3" name="Nome" width="688" order="1"/>
-        <field id="tpd4" name="Data inicial" width="154" order="2"/>
-        <field id="tpd5" name="Data final" width="140" order="3"/>
-        <field id="tpd9" name="Predecessoras" width="178" order="4"/>
-        <field id="tpd7" name="Concluído" width="124" order="5"/>
-        <field id="tpd13" name="Recursos" width="272" order="6"/>
+        <field id="tpd10" name="ID" width="68" order="0"/>
+        <field id="tpd3" name="Nome" width="776" order="1"/>
+        <field id="tpd4" name="Data inicial" width="174" order="2"/>
+        <field id="tpd5" name="Data final" width="158" order="3"/>
+        <field id="tpd9" name="Predecessoras" width="201" order="4"/>
+        <field id="tpd7" name="Concluído" width="140" order="5"/>
+        <field id="tpd13" name="Recursos" width="307" order="6"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
@@ -106,10 +106,10 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" uid="93f320c5db604927871829a32b12d93e" name="Design" meeting="false" start="2026-02-02" duration="35" complete="97" expand="true">
+        <task id="0" uid="93f320c5db604927871829a32b12d93e" name="Design" meeting="false" start="2026-02-02" duration="35" complete="100" expand="false">
             <task id="1" uid="2b4ae935416440938530ddf7ca5b8850" name="Documentação de Requisitos" meeting="false" start="2026-02-02" duration="15" complete="100" expand="true"/>
             <task id="2" uid="598036c84ea44c8d8d941cd1cce1e8dd" name="Documentação de Processos" meeting="false" start="2026-02-02" duration="30" complete="100" expand="true"/>
-            <task id="3" uid="150a7f491ad94824bf94466b4698f852" name="Modelo de Dados" meeting="false" start="2026-02-02" duration="35" complete="94" expand="true">
+            <task id="3" uid="150a7f491ad94824bf94466b4698f852" name="Modelo de Dados" meeting="false" start="2026-02-02" duration="35" complete="100" expand="true">
                 <task id="4" uid="97c864dfd85b4fe7b5b1812c2cb4daf0" name="ME-R Conceitual" meeting="false" start="2026-02-02" duration="32" complete="100" expand="true">
                     <depend id="5" type="2" difference="0" hardness="Strong"/>
                     <depend id="6" type="2" difference="0" hardness="Rubber"/>
@@ -119,23 +119,39 @@
                     <depend id="28" type="2" difference="0" hardness="Strong"/>
                 </task>
                 <task id="6" uid="2dbf60f32ee44a9395571e3fbe067917" name="Criação do Script da Base de Dados" meeting="false" start="2026-03-24" duration="1" complete="100" expand="true"/>
-                <task id="28" uid="4369bff4e7c642a09c9c7aad512ac210" name="Dicionário de Dados" meeting="false" start="2026-03-24" duration="2" complete="0" expand="true"/>
+                <task id="28" uid="4369bff4e7c642a09c9c7aad512ac210" name="Dicionário de Dados" meeting="false" start="2026-03-24" duration="2" complete="100" expand="true"/>
             </task>
         </task>
-        <task id="7" uid="67900e7118564c68bf2ce04e225a82ff" name="Build" meeting="false" start="2026-03-23" duration="30" complete="0" expand="true">
+        <task id="7" uid="67900e7118564c68bf2ce04e225a82ff" name="Build" meeting="false" start="2026-03-23" duration="30" complete="8" expand="true">
             <depend id="21" type="2" difference="0" hardness="Rubber"/>
             <task id="27" uid="efaa48c4bcd44ec9b3586abb6897db5d" name="Documento de Implantação" meeting="false" start="2026-03-23" duration="30" complete="0" expand="true"/>
-            <task id="8" uid="79c553cfe72f4654be20664e7af3459d" name="Configuração de ambiente local" meeting="false" start="2026-03-23" duration="2" complete="0" expand="true"/>
+            <task id="8" uid="79c553cfe72f4654be20664e7af3459d" name="Configuração de ambiente local" meeting="false" start="2026-03-23" duration="2" complete="100" expand="true"/>
             <task id="9" uid="071bdf315d954e91b4071389618c77c8" name="Configuração de ambiente de homologação" meeting="false" start="2026-03-24" duration="2" complete="0" expand="true"/>
-            <task id="10" uid="427ffc19bd234a888aff01bcdd6e61af" name="Lógica de acesso" meeting="false" start="2026-03-25" duration="2" complete="0" expand="true"/>
-            <task id="11" uid="f679ba49d3b5425ca5cba92675ca7d41" name="Tela de login e separação de contas (admin, contabilidade e cliente)" meeting="false" start="2026-03-26" duration="2" complete="0" expand="true"/>
-            <task id="12" uid="5ebfa3ed6d744adcaac4e115abc2b164" name="Lógica de cadastro de usuários" meeting="false" start="2026-03-30" duration="4" complete="0" expand="true"/>
-            <task id="13" uid="f202b43351634229bea03477fa1560e2" name="Armazenamento de cadastros e telas de cadastros" meeting="false" start="2026-04-01" duration="2" complete="0" expand="true"/>
-            <task id="14" uid="3ac3502d4b9e4474a66822a1253d4aab" name="Tela e lógica de requisição de solicitação de solicitação" meeting="false" start="2026-04-02" duration="2" complete="0" expand="true"/>
-            <task id="15" uid="fc2776601289429c8c78e3f95fba2811" name="Sistema de notificação" meeting="false" start="2026-04-06" duration="2" complete="0" expand="true"/>
-            <task id="16" uid="8ea3d2c90cb349df90fca71b68026702" name="Tela e lógica de Recebimento de solicitações" meeting="false" start="2026-04-07" duration="2" complete="0" expand="true"/>
-            <task id="17" uid="3b93f12a502c49569085453d0c2689d9" name="Tela de download e lógica de permissão" meeting="false" start="2026-04-08" duration="2" complete="0" expand="true"/>
-            <task id="18" uid="32d85ab4d21a423ab3e95ea9eb180ef4" name="Sistema de cadastro de requisições periódicas" meeting="false" start="2026-04-09" duration="2" complete="0" expand="true"/>
+            <task id="10" uid="427ffc19bd234a888aff01bcdd6e61af" name="Lógica de acesso" meeting="false" start="2026-03-25" duration="10" complete="30" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" uid="f679ba49d3b5425ca5cba92675ca7d41" name="Tela de login e separação de contas (admin, contabilidade e cliente)" meeting="false" start="2026-04-09" duration="2" complete="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" uid="5ebfa3ed6d744adcaac4e115abc2b164" name="Lógica de cadastro de usuários" meeting="false" start="2026-04-13" duration="4" complete="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" uid="f202b43351634229bea03477fa1560e2" name="Armazenamento de cadastros e telas de cadastros" meeting="false" start="2026-04-17" duration="2" complete="0" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" uid="3ac3502d4b9e4474a66822a1253d4aab" name="Tela e lógica de requisição de solicitação de solicitação" meeting="false" start="2026-04-22" duration="2" complete="0" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" uid="fc2776601289429c8c78e3f95fba2811" name="Sistema de notificação" meeting="false" start="2026-04-24" duration="2" complete="0" expand="true">
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" uid="8ea3d2c90cb349df90fca71b68026702" name="Tela e lógica de Recebimento de solicitações" meeting="false" start="2026-04-28" duration="2" complete="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" uid="3b93f12a502c49569085453d0c2689d9" name="Tela de download e lógica de permissão" meeting="false" start="2026-04-30" duration="2" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" uid="32d85ab4d21a423ab3e95ea9eb180ef4" name="Sistema de cadastro de requisições periódicas" meeting="false" start="2026-05-05" duration="2" complete="0" expand="true"/>
         </task>
         <task id="19" uid="26f55634611a4279967d77d3647c3ab1" name="Test" meeting="false" start="2026-03-23" duration="45" complete="0" expand="true">
             <task id="20" uid="059dcd40a9994917b6faf3774361605c" name="Documentação Plano de Testes" meeting="false" start="2026-03-23" duration="15" complete="0" expand="true">

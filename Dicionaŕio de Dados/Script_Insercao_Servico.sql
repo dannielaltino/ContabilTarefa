@@ -1,6 +1,6 @@
 -- Inserção dos dados da tabela Servico
 
-INSERT INTO servico (serv_id, serv_descricao) VALUES
+INSERT INTO servico (servico_id, servico_desc) VALUES
 (1, 'Planejamento Tributário'),
 (2, 'Apuração de Impostos'),
 (3, 'Escrituração Fiscal'),

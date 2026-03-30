@@ -1,6 +1,6 @@
 -- Inserção dos dados Tipo_Documento
 
-INSERT INTO TipoDoc (tipodoc_id, tipodoc_descricao) VALUES
+INSERT INTO TipoDoc (doctypeid, doctypedesc) VALUES
 (1, 'Nota Fiscal Eletrônica (NF-e)'),
 (2, 'Nota Fiscal de Serviços Eletrônica (NFS-e)'),
 (3, 'Cupom Fiscal (NFC-e / SAT)'),
