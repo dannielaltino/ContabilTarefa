@@ -31,7 +31,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Usuario_Contabilidade_UsuCont_Id" id="778C1A60-72F9-31FB-EB50-9C3B3D871E31">
+<Column name="Usuário_da_Contabilidade_accountingUserId" id="778C1A60-72F9-31FB-EB50-9C3B3D871E31">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>7F13DF95-D345-35E5-9346-2CFE97F2AFF3</generatorID>
@@ -47,7 +47,7 @@
 <colAssociation fkAssociation="179A9119-F661-91D7-A013-F4AA39146689" referredColumn="A65741A5-3151-134B-9B88-288619824581"/>
 </associations>
 </Column>
-<Column name="Usuario_Cliente_UsuCli_Id" id="A05E93BA-542A-B030-060C-8315D8AD091A">
+<Column name="Usuário_Cliente_userClientId" id="A05E93BA-542A-B030-060C-8315D8AD091A">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>DD3A0043-0531-770C-6FF0-E78944563112</generatorID>
@@ -90,7 +90,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="56A37685-A12A-4645-AED8-489EFE2DF23D" name="Execucao_Servico_PK">
+<ind_PK_UK id="56A37685-A12A-4645-AED8-489EFE2DF23D" name="Execucao_do_Servico_PK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>A6E389EC-207A-44FA-7C23-1259FEB6AA69</generatorID>
@@ -102,7 +102,7 @@
 <colUsage columnID="8B5BC0A8-3050-1CDF-5116-A165F69BEA0C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="421FB363-74B3-0783-D754-EF307F3475C1" name="Execucao_Servico_Usuario_Contabilidade_FK">
+<ind_PK_UK id="421FB363-74B3-0783-D754-EF307F3475C1" name="Execucao_do_Servico_Usuário_da_Contabilidade_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>1C90F2E5-9B4E-DC24-AE2C-78021B7D5E89</generatorID>
@@ -113,7 +113,7 @@
 <colUsage columnID="778C1A60-72F9-31FB-EB50-9C3B3D871E31"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4008F55C-AAAE-A416-AD78-859FE5CDC122" name="Execucao_Servico_Usuario_Cliente_FK">
+<ind_PK_UK id="4008F55C-AAAE-A416-AD78-859FE5CDC122" name="Execucao_do_Servico_Usuário_Cliente_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>16009819-1DC7-91C3-1852-EFA6AC8818C1</generatorID>
@@ -124,7 +124,7 @@
 <colUsage columnID="A05E93BA-542A-B030-060C-8315D8AD091A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="960FA1B5-1196-68DB-83FB-4DA449889202" name="Execucao_Servico_Servico_FK">
+<ind_PK_UK id="960FA1B5-1196-68DB-83FB-4DA449889202" name="Execucao_do_Servico_Serviço_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-25 13:01:16 UTC</createdTime>
 <generatorID>36C05E9B-1DDC-F67A-E777-6D92A7125279</generatorID>

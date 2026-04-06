@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Execucao_Servico_ExeSer_Id" id="4ED228FC-CE9C-154F-14FE-314BB44B3AD9">
+<Column name="Execucao_do_Servico_serviceExecutionId" id="4ED228FC-CE9C-154F-14FE-314BB44B3AD9">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>D96906FB-A317-9A6B-7EB8-18F2B1191A44</generatorID>
@@ -68,7 +68,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="CA064B5D-D53F-5884-BE53-4C447B8924E1" name="Andamento_Execucao_Servico_PK">
+<ind_PK_UK id="CA064B5D-D53F-5884-BE53-4C447B8924E1" name="Andamento_da_Execucao_do_Servico_PK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>2F5ACABC-C81A-5DF6-A641-8B322987BC85</generatorID>
@@ -80,7 +80,7 @@
 <colUsage columnID="DE5B2788-D853-F376-B7F1-3CBAA9302BCD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EA5218E5-A40C-25BC-9FD0-30F3F56F777F" name="Andamento_Execucao_Servico_Execucao_Servico_FK">
+<ind_PK_UK id="EA5218E5-A40C-25BC-9FD0-30F3F56F777F" name="Andamento_da_Execucao_do_Servico_Execucao_do_Servico_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>D9597EDD-7E66-F739-8058-53B63993F1AF</generatorID>

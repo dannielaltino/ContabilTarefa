@@ -82,11 +82,43 @@
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<synonym>accountingUserCPF</synonym>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>accountingUserCPF</preferredAbbreviation>
+<source>accountingUserCPF</source>
+</Attribute>
+<Attribute name="Token do Usuário da Contabilidade" id="935AE17A-A638-AD8B-C48C-E81493C6E991">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-04-06 12:18:38 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>accountingUserToken</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>accountingUserToken</preferredAbbreviation>
+<source>accountingUserToken</source>
+</Attribute>
+<Attribute name="Validade do Token do Usuário da Contabilidade" id="EF595634-18CE-EFFC-16D6-B6C3406DCE91">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-04-06 12:26:42 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>accountingUserTimestamp</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>accountingUserTimestamp</preferredAbbreviation>
+<source>accountingUserTimestamp</source>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

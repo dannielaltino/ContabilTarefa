@@ -106,6 +106,36 @@
 <preferredAbbreviation>userClientInadimplente</preferredAbbreviation>
 <source>userClientInadimplente</source>
 </Attribute>
+<Attribute name="Token do Usuário Cliente" id="F017AD1D-328E-9A99-D046-95A07673DE5C">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-04-06 20:47:44 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>userClientToken</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>userClientToken</preferredAbbreviation>
+<source>userClientToken</source>
+</Attribute>
+<Attribute name="Validade do Token do Usuário Cliente" id="C2E2D301-2B3B-906D-76CD-5B312A087998">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-04-06 20:48:44 UTC</createdTime>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<engineerTo>
+<item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
+</engineerTo>
+<synonym>userClientTimestamp</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>userClientTimestamp</preferredAbbreviation>
+<source>userClientTimestamp</source>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="052D5279-6763-8BE2-AD85-B15E6CC7089E" name="Usuário Cliente PK">

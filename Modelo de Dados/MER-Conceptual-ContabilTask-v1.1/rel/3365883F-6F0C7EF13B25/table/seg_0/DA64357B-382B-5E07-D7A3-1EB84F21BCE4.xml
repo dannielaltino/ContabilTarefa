@@ -53,7 +53,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tenant_Tenant_Id" id="FD61D424-96F9-3D17-5D02-17ACB5907F15">
+<Column name="Tenant_tenantId" id="FD61D424-96F9-3D17-5D02-17ACB5907F15">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>9358CE69-1BCC-C44A-C6C9-2FC510A290B8</generatorID>
@@ -80,9 +80,31 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="userClientToken" id="723E9529-4F7D-A70E-8058-81378728631B">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-04-06 20:51:06 UTC</createdTime>
+<generatorID>F017AD1D-328E-9A99-D046-95A07673DE5C</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="userClientTimestamp" id="96B009E0-968F-98C9-826A-968339296FA8">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-04-06 20:51:06 UTC</createdTime>
+<generatorID>C2E2D301-2B3B-906D-76CD-5B312A087998</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D383BD32-52C4-F074-6C90-109E3EA11B89" name="Usuario_Cliente_PK">
+<ind_PK_UK id="D383BD32-52C4-F074-6C90-109E3EA11B89" name="Usuário_Cliente_PK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>052D5279-6763-8BE2-AD85-B15E6CC7089E</generatorID>
@@ -94,7 +116,7 @@
 <colUsage columnID="3FF76037-3F7F-96F9-EFFC-14CBAD919700"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BEE02856-6CA2-B217-E4AD-B0EF683789ED" name="Usuario_Cliente_Tenant_FK">
+<ind_PK_UK id="BEE02856-6CA2-B217-E4AD-B0EF683789ED" name="Usuário_Cliente_Tenant_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>5CE3AD7D-7825-01CC-0183-5793A8B42427</generatorID>

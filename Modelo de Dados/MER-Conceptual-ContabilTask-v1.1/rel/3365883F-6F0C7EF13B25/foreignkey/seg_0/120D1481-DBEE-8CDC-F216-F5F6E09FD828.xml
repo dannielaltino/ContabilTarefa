@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="120D1481-DBEE-8CDC-F216-F5F6E09FD828" containerWithKeyObject="16132FEB-0786-21A8-BEF8-84107B3043A0" localFKIndex="960FA1B5-1196-68DB-83FB-4DA449889202" name="Execucao_Servico_Servico_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="120D1481-DBEE-8CDC-F216-F5F6E09FD828" containerWithKeyObject="16132FEB-0786-21A8-BEF8-84107B3043A0" localFKIndex="960FA1B5-1196-68DB-83FB-4DA449889202" name="Execucao_do_Servico_Serviço_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-25 13:01:16 UTC</createdTime>
 <generatorID>36C05E9B-1DDC-F67A-E777-6D92A7125279</generatorID>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<referredTableLongName>Servico</referredTableLongName>
+<referredTableLongName>Serviço</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>BFC58849-04FD-41CA-C7B8-07EB53188232</referredTableID>
 <keyObject>ED654160-3799-69D0-A054-231AD77D0D59</keyObject>
 <referredKeyID>ED654160-3799-69D0-A054-231AD77D0D59</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>Serv_Id</refColNames>
+<refColNames>Identificador_do_Serviço</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

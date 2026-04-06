@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Servico_Serv_Id" id="4AA5D1DE-2304-D8A4-1AE4-A87C794FD682">
+<Column name="Serviço_Identificador_do_Serviço" id="4AA5D1DE-2304-D8A4-1AE4-A87C794FD682">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>0090A8AB-0406-672D-CB34-FB8798E25BBE</generatorID>
@@ -35,7 +35,7 @@
 <colAssociation fkAssociation="DBCE099D-9977-FB16-94A7-59041DC5C322" referredColumn="18DD4DAC-EEAC-53E8-8BC6-3339C8BD86FB"/>
 </associations>
 </Column>
-<Column name="Usuario_Cliente_UsuCli_Id" id="BDC4B94E-3D50-1D97-726C-00415C920859">
+<Column name="Usuário_Cliente_userClientId" id="BDC4B94E-3D50-1D97-726C-00415C920859">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>D0D2BAC8-4FC7-5EA4-F5A0-6EB8D83CA768</generatorID>
@@ -63,7 +63,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="ADB069B7-B4A1-3B28-2700-61764AAC6494" name="Servicos_Cliente_PK">
+<ind_PK_UK id="ADB069B7-B4A1-3B28-2700-61764AAC6494" name="Serviços_de_Cliente_PK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>4757A996-D87F-E920-B66B-469E5047EE99</generatorID>
@@ -75,7 +75,7 @@
 <colUsage columnID="6CF8E8A5-287D-5F9D-CAF2-9B00684740A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="45228C43-C7F0-931B-6285-F95AF1B150C3" name="Servicos_Cliente_Usuario_Cliente_FK">
+<ind_PK_UK id="45228C43-C7F0-931B-6285-F95AF1B150C3" name="Serviços_de_Cliente_Usuário_Cliente_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>221B0616-61FE-2D59-B9B6-344E3079FE5E</generatorID>
@@ -86,7 +86,7 @@
 <colUsage columnID="BDC4B94E-3D50-1D97-726C-00415C920859"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8F68E71F-2D08-4906-17D9-0B4DB3F8EDFD" name="Servicos_Cliente_Servico_FK">
+<ind_PK_UK id="8F68E71F-2D08-4906-17D9-0B4DB3F8EDFD" name="Serviços_de_Cliente_Serviço_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>57655845-C9E5-91B3-FB25-89AA8207A913</generatorID>

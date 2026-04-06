@@ -42,7 +42,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tenant_Tenant_Id" id="0C9D303C-9F4D-BCAD-D393-AAB5E69BDC42">
+<Column name="Tenant_tenantId" id="0C9D303C-9F4D-BCAD-D393-AAB5E69BDC42">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>CD4684F9-4109-4BBD-9457-0DCF62FDF981</generatorID>
@@ -68,21 +68,42 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CPF_do_Usuário_da_Contabilidade" id="84BA3E42-C273-76B5-92BA-2E3B8146CA52">
+<Column name="accountingUserCPF" id="84BA3E42-C273-76B5-92BA-2E3B8146CA52">
 <createdBy>gtrad2038</createdBy>
 <createdTime>2026-03-25 22:46:42 UTC</createdTime>
 <generatorID>EA103223-2DDA-C0BA-A7A8-058662131600</generatorID>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="accountingUserToken" id="6894FFDD-8DD8-C694-CC09-943684C8DF31">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-04-06 20:51:06 UTC</createdTime>
+<generatorID>935AE17A-A638-AD8B-C48C-E81493C6E991</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="accountingUserTimestamp" id="83DC4AA5-EEA6-D8D5-DB34-F4C89D9E8016">
+<createdBy>gtrad2038</createdBy>
+<createdTime>2026-04-06 20:51:06 UTC</createdTime>
+<generatorID>EF595634-18CE-EFFC-16D6-B6C3406DCE91</generatorID>
+<ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E1E0275E-AB17-FB35-91FB-E919ED1D183C" name="Usuario_Contabilidade_PK">
+<ind_PK_UK id="E1E0275E-AB17-FB35-91FB-E919ED1D183C" name="Usuário_da_Contabilidade_PK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>0DEC5B73-6C79-CF68-FEC3-371E9B0740BA</generatorID>
@@ -94,7 +115,7 @@
 <colUsage columnID="A65741A5-3151-134B-9B88-288619824581"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="32499747-E3B2-6BE3-C640-B0B765198AD4" name="Usuario_Contabilidade_Tenant_FK">
+<ind_PK_UK id="32499747-E3B2-6BE3-C640-B0B765198AD4" name="Usuário_da_Contabilidade_Tenant_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>DE0399D0-9A08-868E-77F1-E9BFCB335C95</generatorID>

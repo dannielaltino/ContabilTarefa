@@ -53,7 +53,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tipo_Documento_TipoDoc_Id" id="AABDB260-F824-1836-1025-DD2798543F3E">
+<Column name="Tipo_de_Documento_docTypeId" id="AABDB260-F824-1836-1025-DD2798543F3E">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>0DBBDE2A-2CBC-9F00-4475-C19DE89698E5</generatorID>
@@ -68,7 +68,7 @@
 <colAssociation fkAssociation="E784FF9E-5D44-B3CD-B915-83C5AB982052" referredColumn="049DE4F5-98D1-3D68-DCD9-663342E5EEDF"/>
 </associations>
 </Column>
-<Column name="Andamento_Execucao_Servico_AndExeSer_Id" id="D4DC8B97-46CB-A228-977A-E6B08954A7D8">
+<Column name="Andamento_da_Execucao_do_Servico_followUpServiceExecutionId" id="D4DC8B97-46CB-A228-977A-E6B08954A7D8">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>73712693-7414-E976-650B-2BF1896AD899</generatorID>
@@ -97,7 +97,7 @@
 <colUsage columnID="CA70FB49-9576-BC8F-DE4D-224B0FE17F6B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D998F429-0966-A659-E51B-5CCBC6FC1CE0" name="Documento_Tipo_Documento_FK">
+<ind_PK_UK id="D998F429-0966-A659-E51B-5CCBC6FC1CE0" name="Documento_Tipo_de_Documento_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>C142EDC7-19D2-10A8-4D10-329E64AE4E45</generatorID>
@@ -108,7 +108,7 @@
 <colUsage columnID="AABDB260-F824-1836-1025-DD2798543F3E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B5C72033-81F2-B967-14E8-C7C2E69B7F77" name="Documento_Andamento_Execucao_Servico_FK">
+<ind_PK_UK id="B5C72033-81F2-B967-14E8-C7C2E69B7F77" name="Documento_Andamento_da_Execucao_do_Servico_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>D79317E6-9442-8E52-C339-1044D34D6564</generatorID>

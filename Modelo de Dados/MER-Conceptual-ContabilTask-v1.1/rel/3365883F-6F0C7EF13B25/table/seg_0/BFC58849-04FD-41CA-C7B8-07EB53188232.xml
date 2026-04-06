@@ -33,7 +33,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="ED654160-3799-69D0-A054-231AD77D0D59" name="Servico_PK">
+<ind_PK_UK id="ED654160-3799-69D0-A054-231AD77D0D59" name="Serviço_PK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>5488A505-C2BA-08BB-3F22-7F2165FC8086</generatorID>

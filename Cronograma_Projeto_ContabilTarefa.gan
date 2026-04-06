@@ -122,15 +122,15 @@
                 <task id="28" uid="4369bff4e7c642a09c9c7aad512ac210" name="Dicionário de Dados" meeting="false" start="2026-03-24" duration="2" complete="100" expand="true"/>
             </task>
         </task>
-        <task id="7" uid="67900e7118564c68bf2ce04e225a82ff" name="Build" meeting="false" start="2026-03-23" duration="30" complete="8" expand="true">
+        <task id="7" uid="67900e7118564c68bf2ce04e225a82ff" name="Build" meeting="false" start="2026-03-23" duration="30" complete="16" expand="true">
             <depend id="21" type="2" difference="0" hardness="Rubber"/>
-            <task id="27" uid="efaa48c4bcd44ec9b3586abb6897db5d" name="Documento de Implantação" meeting="false" start="2026-03-23" duration="30" complete="0" expand="true"/>
+            <task id="27" uid="efaa48c4bcd44ec9b3586abb6897db5d" name="Documento de Implantação" meeting="false" start="2026-03-23" duration="30" complete="10" expand="true"/>
             <task id="8" uid="79c553cfe72f4654be20664e7af3459d" name="Configuração de ambiente local" meeting="false" start="2026-03-23" duration="2" complete="100" expand="true"/>
-            <task id="9" uid="071bdf315d954e91b4071389618c77c8" name="Configuração de ambiente de homologação" meeting="false" start="2026-03-24" duration="2" complete="0" expand="true"/>
+            <task id="9" uid="071bdf315d954e91b4071389618c77c8" name="Configuração de ambiente de homologação" meeting="false" start="2026-03-24" duration="2" complete="90" expand="true"/>
             <task id="10" uid="427ffc19bd234a888aff01bcdd6e61af" name="Lógica de acesso" meeting="false" start="2026-03-25" duration="10" complete="30" expand="true">
                 <depend id="11" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="11" uid="f679ba49d3b5425ca5cba92675ca7d41" name="Tela de login e separação de contas (admin, contabilidade e cliente)" meeting="false" start="2026-04-09" duration="2" complete="0" expand="true">
+            <task id="11" uid="f679ba49d3b5425ca5cba92675ca7d41" name="Tela de login e separação de contas (admin, contabilidade e cliente)" meeting="false" start="2026-04-09" duration="2" complete="30" expand="true">
                 <depend id="12" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="12" uid="5ebfa3ed6d744adcaac4e115abc2b164" name="Lógica de cadastro de usuários" meeting="false" start="2026-04-13" duration="4" complete="0" expand="true">

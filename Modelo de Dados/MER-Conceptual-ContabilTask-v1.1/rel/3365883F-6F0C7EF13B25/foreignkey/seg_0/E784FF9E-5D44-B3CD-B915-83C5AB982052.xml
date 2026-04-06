@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E784FF9E-5D44-B3CD-B915-83C5AB982052" containerWithKeyObject="D4E28C54-BA21-3943-414F-C93D6DEC0EC4" localFKIndex="D998F429-0966-A659-E51B-5CCBC6FC1CE0" name="Documento_Tipo_Documento_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E784FF9E-5D44-B3CD-B915-83C5AB982052" containerWithKeyObject="D4E28C54-BA21-3943-414F-C93D6DEC0EC4" localFKIndex="D998F429-0966-A659-E51B-5CCBC6FC1CE0" name="Documento_Tipo_de_Documento_FK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>C142EDC7-19D2-10A8-4D10-329E64AE4E45</generatorID>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<referredTableLongName>Tipo_Documento</referredTableLongName>
+<referredTableLongName>Tipo_de_Documento</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>0E62D580-CA9D-D25F-5DCC-C6ADA3331655</referredTableID>
 <keyObject>0E3C1E6B-2B2A-1416-4DC1-6F973747B5A1</keyObject>
 <referredKeyID>0E3C1E6B-2B2A-1416-4DC1-6F973747B5A1</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>TipoDoc_Id</refColNames>
+<refColNames>docTypeId</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

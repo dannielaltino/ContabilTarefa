@@ -4,7 +4,6 @@
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>99D435B1-41B1-5926-3E99-7E10A2EDE6DF</generatorID>
 <ownerDesignName>MER-Conceptual-ContabilTask-v1.1</ownerDesignName>
-<ordsAlias>tipo_de_documento</ordsAlias>
 <abbreviation>documentType</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -34,7 +33,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0E3C1E6B-2B2A-1416-4DC1-6F973747B5A1" name="Tipo_Documento_PK">
+<ind_PK_UK id="0E3C1E6B-2B2A-1416-4DC1-6F973747B5A1" name="Tipo_de_Documento_PK">
 <createdBy>Milagre</createdBy>
 <createdTime>2026-03-23 13:29:23 UTC</createdTime>
 <generatorID>9680C990-CDC2-52E4-A98D-31B88902E159</generatorID>
