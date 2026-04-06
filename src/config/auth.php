@@ -1,6 +1,7 @@
 <?php
 
-use App\Models\User;
+use App\Models\Contabilidade;
+use App\Models\Cliente;
 
 return [
 
@@ -38,9 +39,13 @@ return [
     */
 
     'guards' => [
-        'web' => [
+        'cliente' => [
             'driver' => 'session',
-            'provider' => 'users',
+            'provider' => 'users_client',
+        ],
+        'contabil' => [
+            'driver' => 'session',
+            'provider' => 'users_contabil',
         ],
     ],
 
@@ -62,9 +67,13 @@ return [
     */
 
     'providers' => [
-        'users' => [
+        'users_client' => [
             'driver' => 'eloquent',
-            'model' => env('AUTH_MODEL', User::class),
+            'model' => Cliente::class,
+        ],
+        'users_client' => [
+            'driver' => 'eloquent',
+            'model' => Contabilidade::class,
         ],
 
         // 'users' => [

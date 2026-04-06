@@ -1,10 +1,22 @@
 <?php
 
-namespace App\Models;
+namespace App;
 
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class Cliente extends Model
+class Cliente extends Authenticatable
 {
-    //
+    use Notifiable;
+
+    protected $guard = 'cliente';
+
+    protected $fillable = [
+        'userclientname',
+        'userclientcnpj',
+        'userclientemail',
+        'tenant_id',
+        'userclientinadimplente',
+    ];
+
 }
