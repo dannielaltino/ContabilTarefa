@@ -71,7 +71,7 @@ return [
             'driver' => 'eloquent',
             'model' => Cliente::class,
         ],
-        'users_client' => [
+        'users_contabil' => [
             'driver' => 'eloquent',
             'model' => Contabilidade::class,
         ],
@@ -122,5 +122,7 @@ return [
     */
 
     'password_timeout' => env('AUTH_PASSWORD_TIMEOUT', 10800),
+
+    'toke_timeout' => env('TOKEN_LIFETIME', 15),
 
 ];
