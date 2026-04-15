@@ -113,6 +113,7 @@
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <synonym>userClientToken</synonym>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -128,6 +129,7 @@
 <engineerTo>
 <item key="3365883F-AE4B-C79A-DA7F-6F0C7EF13B25" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <synonym>userClientTimestamp</synonym>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
