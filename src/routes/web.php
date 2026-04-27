@@ -4,6 +4,9 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ClienteController;
+
+
 
 Route::get('/', function () {
     return redirect()->route('login');
@@ -23,8 +26,14 @@ Route::post('logout', [LoginController::class,'logout'])->name('postLogout');   
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-Route::middleware(['auth:cliente,contabil'])->group(function() {
+Route::middleware(['auth:contabil'])->group(function() {
     Route::get('/dashboard/contabil', [HomeController::class, 'contabil'])->name('home_contabil');
     
+    Route::resource('/dashboard/contabil/cadastro', ClienteController::class)->names("cliente");
+    
+});
+
+Route::middleware(['auth:cliente'])->group(function() {
     Route::get('/dashboard/cliente', [HomeController::class, 'cliente'])->name('home_cliente');
+    
 });
