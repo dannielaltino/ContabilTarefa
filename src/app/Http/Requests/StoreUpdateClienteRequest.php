@@ -32,7 +32,6 @@ class StoreUpdateClienteRequest extends FormRequest
                 'required',
                 'string',
                 'max:255',
-                'regex:/^(?:[\p{L}\']+\s+){1,}[\p{L}\']+$/u',
             ],
             'userclientcnpj' => [
                 'required',

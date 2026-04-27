@@ -15,6 +15,12 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+
+                    <div class="mt-3">
+                        <a href="{{ route('cliente.index') }}" class="btn btn-primary">
+                            {{ __('Cadastro de Clientes') }}
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

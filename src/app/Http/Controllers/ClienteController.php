@@ -47,11 +47,13 @@ class ClienteController extends Controller
         {
             return redirect()->back()->with('Error');
         }
+
+        $dataclient['userclientcnpj'] = preg_replace('/[^0-9]/', '', $dataclient['userclientcnpj']);
+
         if (!is_null(Cliente::where('userclientcnpj', $dataclient['userclientcnpj'])->first()))
         {
             return redirect()->back()->with('Error');
         }
-
         Cliente::create($dataclient);
 
         return redirect()->route('cliente.index');
@@ -98,6 +100,8 @@ class ClienteController extends Controller
     {
         $cliente = Cliente::find($id);
 
+        $dataclient = $request->all();
+
         $user = Auth::user();
 
         if ($cliente->tenant_id != $user->tenant_id)
@@ -109,10 +113,15 @@ class ClienteController extends Controller
         {
             return redirect()->back()->with('Error');
         }
+
+        $dataclient['userclientcnpj'] = preg_replace('/[^0-9]/', '', $dataclient['userclientcnpj']);
+
         if (!is_null(Cliente::where('userclientcnpj', $dataclient['userclientcnpj'])->whereNot('userclientid', $cliente->userclientid)->first()))
         {
             return redirect()->back()->with('Error');
         }
+
+        $dataclient['userclientid'] = $cliente->userclientid;
 
         $cliente->update($dataclient);
 
