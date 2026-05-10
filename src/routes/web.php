@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ClienteController;
+use App\Http\Controllers\ExecutionController;
 
 
 
@@ -35,5 +36,8 @@ Route::middleware(['auth:contabil'])->group(function() {
 
 Route::middleware(['auth:cliente'])->group(function() {
     Route::get('/dashboard/cliente', [HomeController::class, 'cliente'])->name('home_cliente');
+
+    Route::get('/dashboard/cliente/request', [ExecutionController::class, 'index'])->name('solicitacao');
+    Route::post('/dashboard/cliente/request', [ExecutionController::class, 'createExecution'])->name('solicitacao_store');
     
 });

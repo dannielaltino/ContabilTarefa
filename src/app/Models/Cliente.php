@@ -35,6 +35,16 @@ class Cliente extends Authenticatable
         'userclienttimestamp',
     ];
 
+    public function tenant()
+    {
+        return $this->belongsTo(Tenant::class, 'tenant_id');
+    }
+
+    public function execucaoServico()
+    {
+        return $this->hasMany(ExecucaoServico::class, 'usuario_cli_id');
+    }
+
     public function guardName(): string
     {
         return 'cliente';

@@ -7,18 +7,18 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 
-class TokenNotification extends Notification
+class executionRequestNotification extends Notification
 {
     use Queueable;
 
     /**
      * Create a new notification instance.
      */
-    public function __construct($token, $horaExpiracao, $name = null)
+    public function __construct($cliente, $servico, $name = NULL)
     {
-        $this->token = $token;
+        $this->cliente = $cliente;
+        $this->servico = $servico;
         $this->name = $name;
-        $this->horaExpiracao = $horaExpiracao;
     }
 
     /**
@@ -37,16 +37,12 @@ class TokenNotification extends Notification
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
-            ->subject("Token de Acesso")
+            ->subject("Solicitação de serviço")
             ->greeting($this->name ? "Olá, {$this->name}!" : 'Olá!')
-            ->line('Aqui está o token de acesso para o ContabilTarefa:')
-            ->line("**{$this->token}**")
+            ->line("Um dos seus clientes, {$this->cliente}, requisitou o serviço {$this->servico}!")
+            ->line('Acesse a plataforma para responder a solicitação.')
             ->line('Obrigado por usar nosso sistema.')
-            ->salutation(config(('app.name')));
-
-        // return (new MailMessage)
-        //     ->subject("Token de Acesso")
-        //     ->view('emails.token', compact('token', 'name', 'horaExpiracao'));
+            ->salutation(config(('app.name')));;
     }
 
     /**

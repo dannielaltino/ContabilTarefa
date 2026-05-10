@@ -21,6 +21,11 @@
                             {{ __('Cadastro de Clientes') }}
                         </a>
                     </div>
+                    <div class="mt-3">
+                        <a href="{{ route('solicitacao') }}" class="btn btn-primary">
+                            {{ __('Solicitar serviço') }}
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
