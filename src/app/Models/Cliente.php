@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Notifications\Notification;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -13,6 +14,7 @@ class Cliente extends Authenticatable
     use Notifiable;
 
     public $timestamps = false;
+    public $incrementing = false;
 
     protected $guard = 'cliente';
 
@@ -20,7 +22,10 @@ class Cliente extends Authenticatable
 
     protected $primaryKey = 'userclientid';
 
+    protected $keyType = 'int';
+
     protected $fillable = [
+        'userclientid',
         'userclientname',
         'userclientcnpj',
         'userclientemail',
@@ -40,6 +45,18 @@ class Cliente extends Authenticatable
  
         // Return email address and name...
         return [$this->userclientemail => $this->userclientname];
+    }
+
+    protected static function boot()
+    {
+        parent::boot();
+
+        static::creating(function ($model) {
+            if (empty($model->userclientid)) {
+                $max = DB::table('usuario_cliente')->max('userclientid');
+                $model->userclientid = ($max ?? 0) + 1;
+            }
+        });
     }
 
 }
